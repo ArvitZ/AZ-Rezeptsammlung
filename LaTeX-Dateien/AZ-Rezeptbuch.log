@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.7)  25 SEP 2021 01:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.7)  29 SEP 2021 23:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -814,7 +814,17 @@ File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.toc [3
 
 
-])
+]
+Overfull \hbox (2.03697pt too wide) detected at line 65
+ []\T1/cmss/bx/n/12 101
+ []
+
+
+Overfull \hbox (2.03697pt too wide) detected at line 66
+ []\T1/cmss/bx/n/12 103
+ []
+
+)
 \tf@toc=\write6
 \openout6 = `AZ-Rezeptbuch.toc'.
 
@@ -826,39 +836,44 @@ Overfull \hbox (9.23221pt too wide) in paragraph at lines 66--67
  []
 
 
-Overfull \hbox (5.39684pt too wide) in paragraph at lines 68--71
+Overfull \hbox (5.39684pt too wide) in paragraph at lines 68--72
 []\T1/cmr/m/n/12 Verbesserungsvorschl�ge und Bug-Reports (bit-te mit Log-Files!) k�n-nen an  []mei-ne Posteo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--72
+
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 	\newpage
+l.72 	\newpage
                [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \newpage
+l.117 \newpage
                [2]
 chapter 2.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 \newpage
+l.122 \newpage
                [3
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 	\newpage
+l.163 	\newpage
                 [4] [5] [6]
-<media/Falaffel.JPG, id=202, 4047.12pt x 3035.34pt>
+<media/Falaffel.JPG, id=204, 4047.12pt x 3035.34pt>
 File: media/Falaffel.JPG Graphic file (type jpg)
 <use media/Falaffel.JPG>
-Package pdftex.def Info: media/Falaffel.JPG  used on input line 289.
+Package pdftex.def Info: media/Falaffel.JPG  used on input line 290.
 (pdftex.def)             Requested size: 448.13095pt x 336.06526pt.
  [7] [8 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/Falaffel.JPG>] [9] [10
 
@@ -867,7 +882,7 @@ Package pdftex.def Info: media/Falaffel.JPG  used on input line 289.
 chapter 3.
 File: media/Lauchgemüse.JPG Graphic file (type jpg)
 <use media/Lauchgemüse.JPG>
-Package pdftex.def Info: media/Lauchgemüse.JPG  used on input line 376.
+Package pdftex.def Info: media/Lauchgemüse.JPG  used on input line 377.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -878,7 +893,7 @@ Overfull \vbox (46.83351pt too high) has occurred while \output is active []
  [12 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/Lauchgemüse.JPG>] [13]
 File: media/seitan.JPG Graphic file (type jpg)
 <use media/seitan.JPG>
-Package pdftex.def Info: media/seitan.JPG  used on input line 459.
+Package pdftex.def Info: media/seitan.JPG  used on input line 460.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -889,7 +904,7 @@ Overfull \vbox (49.63866pt too high) has occurred while \output is active []
  [15 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/seitan.JPG>] [16]
 File: media/Falaffel.JPG Graphic file (type jpg)
 <use media/Falaffel.JPG>
-Package pdftex.def Info: media/Falaffel.JPG  used on input line 540.
+Package pdftex.def Info: media/Falaffel.JPG  used on input line 541.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -900,10 +915,10 @@ Overfull \vbox (68.05328pt too high) has occurred while \output is active []
  [18]
 File: media/zucchini_bratling.JPG Graphic file (type jpg)
 <use media/zucchini_bratling.JPG>
-Package pdftex.def Info: media/zucchini_bratling.JPG  used on input line 578.
+Package pdftex.def Info: media/zucchini_bratling.JPG  used on input line 579.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (25.11395pt too wide) in paragraph at lines 578--578
+Overfull \hbox (25.11395pt too wide) in paragraph at lines 579--579
 []|[]|  
  []
 
@@ -917,7 +932,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 chapter 4.
 File: media/bechamelsoße.png Graphic file (type png)
 <use media/bechamelsoße.png>
-Package pdftex.def Info: media/bechamelsoße.png  used on input line 638.
+Package pdftex.def Info: media/bechamelsoße.png  used on input line 639.
 (pdftex.def)             Requested size: 189.48401pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -928,307 +943,318 @@ Overfull \vbox (89.34714pt too high) has occurred while \output is active []
  [24 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/bechamelsoße.png>]
 File: media/pesto_nudeln.JPG Graphic file (type jpg)
 <use media/pesto_nudeln.JPG>
-Package pdftex.def Info: media/pesto_nudeln.JPG  used on input line 681.
+Package pdftex.def Info: media/pesto_nudeln.JPG  used on input line 682.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
  [25 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/pesto_nudeln.JPG>]
-Overfull \hbox (55.1995pt too wide) in paragraph at lines 721--721
+Overfull \hbox (55.1995pt too wide) in paragraph at lines 722--722
 []|[]|  
  []
 
 [26]
+File: media/pizza.JPG Graphic file (type jpg)
+<use media/pizza.JPG>
+Package pdftex.def Info: media/pizza.JPG  used on input line 769.
+(pdftex.def)             Requested size: 219.95657pt x 142.26378pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Overfull \vbox (107.35727pt too high) has occurred while \output is active []
+
+ [28 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/pizza.JPG>] [29] [30
+
+
+]
 chapter 5.
-[27
-
-
-] [28
+[31] [32
 
 
 ]
 chapter 6.
-[29] [30]
-Overfull \hbox (32.42917pt too wide) in paragraph at lines 768--768
+[33] [34]
+Overfull \hbox (32.42917pt too wide) in paragraph at lines 834--834
 []|[]|  
  []
 
-[31] [32]
+[35] [36]
 File: media/frikasse.jpg Graphic file (type jpg)
 <use media/frikasse.jpg>
-Package pdftex.def Info: media/frikasse.jpg  used on input line 826.
+Package pdftex.def Info: media/frikasse.jpg  used on input line 892.
 (pdftex.def)             Requested size: 213.68942pt x 142.26378pt.
- [33 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/frikasse.jpg>] [34] [35] [36]
+ [37 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/frikasse.jpg>] [38] [39] [40]
 File: media/linseneintopf.jpg Graphic file (type jpg)
 <use media/linseneintopf.jpg>
-Package pdftex.def Info: media/linseneintopf.jpg  used on input line 935.
+Package pdftex.def Info: media/linseneintopf.jpg  used on input line 1001.
 (pdftex.def)             Requested size: 213.68942pt x 142.26378pt.
- [37 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/linseneintopf.jpg>] [38]
+ [41 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/linseneintopf.jpg>] [42]
 File: media/kartoffelpuffer.jpg Graphic file (type jpg)
 <use media/kartoffelpuffer.jpg>
-Package pdftex.def Info: media/kartoffelpuffer.jpg  used on input line 986.
+Package pdftex.def Info: media/kartoffelpuffer.jpg  used on input line 1052.
 (pdftex.def)             Requested size: 189.49522pt x 142.26378pt.
- [39 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/kartoffelpuffer.jpg>] [40]
+ [43 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/kartoffelpuffer.jpg>] [44]
 File: media/aloo_masala.JPG Graphic file (type jpg)
 <use media/aloo_masala.JPG>
-Package pdftex.def Info: media/aloo_masala.JPG  used on input line 1051.
+Package pdftex.def Info: media/aloo_masala.JPG  used on input line 1117.
 (pdftex.def)             Requested size: 191.50485pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [45]
 Overfull \vbox (71.79495pt too high) has occurred while \output is active []
 
- [42 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/aloo_masala.JPG>] [43] [44]
+ [46 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/aloo_masala.JPG>] [47] [48]
 chapter 7.
-[45
+[49
 
 
-] [46] [47] [48
+] [50] [51] [52
 
 
 ]
 chapter 8.
-[49]
+[53]
 File: media/pfannkuchen.jpg Graphic file (type jpg)
 <use media/pfannkuchen.jpg>
-Package pdftex.def Info: media/pfannkuchen.jpg  used on input line 1242.
+Package pdftex.def Info: media/pfannkuchen.jpg  used on input line 1308.
 (pdftex.def)             Requested size: 189.19444pt x 142.26378pt.
-<media/spinat_pfannkuchen.JPG, id=478, 1341.3312pt x 894.2208pt>
+<media/spinat_pfannkuchen.JPG, id=507, 1341.3312pt x 894.2208pt>
 File: media/spinat_pfannkuchen.JPG Graphic file (type jpg)
 <use media/spinat_pfannkuchen.JPG>
-Package pdftex.def Info: media/spinat_pfannkuchen.JPG  used on input line 1269.
+Package pdftex.def Info: media/spinat_pfannkuchen.JPG  used on input line 1335.
 (pdftex.def)             Requested size: 268.8813pt x 179.25032pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/pfannkuchen.jpg>]
+ [54 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/pfannkuchen.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51]
+[55]
 File: media/dampfnudel.jpg Graphic file (type jpg)
 <use media/dampfnudel.jpg>
-Package pdftex.def Info: media/dampfnudel.jpg  used on input line 1327.
+Package pdftex.def Info: media/dampfnudel.jpg  used on input line 1393.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/spinat_pfannkuchen.JPG>]
+ [56 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/spinat_pfannkuchen.JPG>]
 Overfull \vbox (117.40112pt too high) has occurred while \output is active []
 
- [53 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/dampfnudel.jpg>] [54] [55]
+ [57 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/dampfnudel.jpg>] [58] [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [60]
 Overfull \vbox (37.1284pt too high) has occurred while \output is active []
 
- [57]
+ [61]
 File: media/grießbrei.JPG Graphic file (type jpg)
 <use media/grießbrei.JPG>
-Package pdftex.def Info: media/grießbrei.JPG  used on input line 1474.
+Package pdftex.def Info: media/grießbrei.JPG  used on input line 1540.
 (pdftex.def)             Requested size: 213.53944pt x 142.26378pt.
- [58 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/grießbrei.JPG>] [59] [60
+ [62 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/grießbrei.JPG>] [63] [64
 
 
 ]
 chapter 9.
 File: media/popcorn.jpg Graphic file (type jpg)
 <use media/popcorn.jpg>
-Package pdftex.def Info: media/popcorn.jpg  used on input line 1564.
+Package pdftex.def Info: media/popcorn.jpg  used on input line 1630.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (24.89467pt too wide) in paragraph at lines 1564--1564
+Overfull \hbox (24.89467pt too wide) in paragraph at lines 1630--1630
 []|[]|  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [65]
 Overfull \vbox (4.35103pt too high) has occurred while \output is active []
 
- [62 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/popcorn.jpg>]
+ [66 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/popcorn.jpg>]
 File: media/pizzabroetchen.JPG Graphic file (type jpg)
 <use media/pizzabroetchen.JPG>
-Package pdftex.def Info: media/pizzabroetchen.JPG  used on input line 1595.
+Package pdftex.def Info: media/pizzabroetchen.JPG  used on input line 1661.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (17.99352pt too wide) in paragraph at lines 1595--1595
+Overfull \hbox (17.99352pt too wide) in paragraph at lines 1661--1661
 []|[]|  
  []
 
-[63 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/pizzabroetchen.JPG>] [64]
+[67 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/pizzabroetchen.JPG>] [68]
 chapter 10.
-[65
+[69
 
 
-] [66] [67]
+] [70] [71]
 File: media/hefeteig_reise.JPG Graphic file (type jpg)
 <use media/hefeteig_reise.JPG>
-Package pdftex.def Info: media/hefeteig_reise.JPG  used on input line 1703.
+Package pdftex.def Info: media/hefeteig_reise.JPG  used on input line 1769.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-<media/vollkorn_broetchen.jpg, id=619, 1456.9632pt x 969.3816pt>
+<media/vollkorn_broetchen.jpg, id=648, 1456.9632pt x 969.3816pt>
 File: media/vollkorn_broetchen.jpg Graphic file (type jpg)
 <use media/vollkorn_broetchen.jpg>
-Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 1710.
+Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 1776.
 (pdftex.def)             Requested size: 219.58662pt x 146.09616pt.
-<media/Fladenbrot.JPG, id=620, 4047.12pt x 3035.34pt>
+<media/Fladenbrot.JPG, id=649, 4047.12pt x 3035.34pt>
 File: media/Fladenbrot.JPG Graphic file (type jpg)
 <use media/Fladenbrot.JPG>
-Package pdftex.def Info: media/Fladenbrot.JPG  used on input line 1714.
+Package pdftex.def Info: media/Fladenbrot.JPG  used on input line 1780.
 (pdftex.def)             Requested size: 224.06548pt x 168.03262pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [72]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \vbox (98.8103pt too high) has occurred while \output is active []
 
- [69 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/hefeteig_reise.JPG>] [70 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/vollkorn_broetchen.jpg> </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/Fladenbrot.JPG>]
+ [73 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/hefeteig_reise.JPG>] [74 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/vollkorn_broetchen.jpg> </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/Fladenbrot.JPG>]
 File: media/vollkorn_broetchen.jpg Graphic file (type jpg)
 <use media/vollkorn_broetchen.jpg>
-Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 1767.
+Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 1833.
 (pdftex.def)             Requested size: 213.79976pt x 142.26378pt.
-<media/burger_broetchen.JPG, id=644, 2699.08376pt x 2024.56375pt>
+<media/burger_broetchen.JPG, id=673, 2699.08376pt x 2024.56375pt>
 File: media/burger_broetchen.JPG Graphic file (type jpg)
 <use media/burger_broetchen.JPG>
-Package pdftex.def Info: media/burger_broetchen.JPG  used on input line 1771.
+Package pdftex.def Info: media/burger_broetchen.JPG  used on input line 1837.
 (pdftex.def)             Requested size: 268.8813pt x 201.66502pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [75]
 Overfull \vbox (47.47125pt too high) has occurred while \output is active []
 
- [72]
+ [76]
 File: media/fladenbrot_flach.JPG Graphic file (type jpg)
 <use media/fladenbrot_flach.JPG>
-Package pdftex.def Info: media/fladenbrot_flach.JPG  used on input line 1812.
+Package pdftex.def Info: media/fladenbrot_flach.JPG  used on input line 1878.
 (pdftex.def)             Requested size: 192.66855pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/burger_broetchen.JPG>] [74 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/fladenbrot_flach.JPG>]
-<media/naan_brot.JPG, id=667, 4047.12pt x 3035.34pt>
+ [77 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/burger_broetchen.JPG>] [78 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/fladenbrot_flach.JPG>]
+<media/naan_brot.JPG, id=696, 4047.12pt x 3035.34pt>
 File: media/naan_brot.JPG Graphic file (type jpg)
 <use media/naan_brot.JPG>
-Package pdftex.def Info: media/naan_brot.JPG  used on input line 1831.
+Package pdftex.def Info: media/naan_brot.JPG  used on input line 1897.
 (pdftex.def)             Requested size: 313.69029pt x 235.23642pt.
- [75 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/naan_brot.JPG>] [76]
+ [79 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/naan_brot.JPG>] [80]
 File: media/ruehrkuchen_2.JPG Graphic file (type jpg)
 <use media/ruehrkuchen_2.JPG>
-Package pdftex.def Info: media/ruehrkuchen_2.JPG  used on input line 1875.
+Package pdftex.def Info: media/ruehrkuchen_2.JPG  used on input line 1941.
 (pdftex.def)             Requested size: 213.38936pt x 142.26378pt.
- [77 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/ruehrkuchen_2.JPG>] [78] [79]
+ [81 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/ruehrkuchen_2.JPG>] [82] [83]
 File: media/kuerbisbrot.JPG Graphic file (type jpg)
 <use media/kuerbisbrot.JPG>
-Package pdftex.def Info: media/kuerbisbrot.JPG  used on input line 1979.
+Package pdftex.def Info: media/kuerbisbrot.JPG  used on input line 2058.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [80]
-Overfull \vbox (3.65276pt too high) has occurred while \output is active []
-
- [81 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/kuerbisbrot.JPG>]
-File: media/zupfkuche.JPG Graphic file (type jpg)
-<use media/zupfkuche.JPG>
-Package pdftex.def Info: media/zupfkuche.JPG  used on input line 2024.
-(pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82]
-Overfull \vbox (28.2155pt too high) has occurred while \output is active []
-
- [83 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/zupfkuche.JPG>]
-File: media/brownie.JPG Graphic file (type jpg)
-<use media/brownie.JPG>
-Package pdftex.def Info: media/brownie.JPG  used on input line 2077.
-(pdftex.def)             Requested size: 217.43007pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [84]
-Overfull \vbox (27.1713pt too high) has occurred while \output is active []
+Overfull \vbox (3.65276pt too high) has occurred while \output is active []
 
- [85 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/brownie.JPG>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2082.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 2082.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2082.
-
-File: media/apple_pi.JPG Graphic file (type jpg)
-<use media/apple_pi.JPG>
-Package pdftex.def Info: media/apple_pi.JPG  used on input line 2123.
+ [85 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/kuerbisbrot.JPG>]
+File: media/zupfkuche.JPG Graphic file (type jpg)
+<use media/zupfkuche.JPG>
+Package pdftex.def Info: media/zupfkuche.JPG  used on input line 2103.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [86]
+Overfull \vbox (28.2155pt too high) has occurred while \output is active []
+
+ [87 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/zupfkuche.JPG>]
+File: media/brownie.JPG Graphic file (type jpg)
+<use media/brownie.JPG>
+Package pdftex.def Info: media/brownie.JPG  used on input line 2156.
+(pdftex.def)             Requested size: 217.43007pt x 142.26378pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Overfull \vbox (27.1713pt too high) has occurred while \output is active []
+
+ [89 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/brownie.JPG>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2161.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\pi' on input line 2161.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2161.
+
+File: media/apple_pi.JPG Graphic file (type jpg)
+<use media/apple_pi.JPG>
+Package pdftex.def Info: media/apple_pi.JPG  used on input line 2202.
+(pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
 Overfull \vbox (8.89006pt too high) has occurred while \output is active []
 
- [87 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/apple_pi.JPG>] [88]
+ [91 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/apple_pi.JPG>] [92]
 File: media/hefezopf.jpg Graphic file (type jpg)
 <use media/hefezopf.jpg>
-Package pdftex.def Info: media/hefezopf.jpg  used on input line 2172.
+Package pdftex.def Info: media/hefezopf.jpg  used on input line 2251.
 (pdftex.def)             Requested size: 192.53906pt x 142.26378pt.
- [89 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/hefezopf.jpg>] [90]
+ [93 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/hefezopf.jpg>] [94]
 File: media/zimtschnecken.JPG Graphic file (type jpg)
 <use media/zimtschnecken.JPG>
-Package pdftex.def Info: media/zimtschnecken.JPG  used on input line 2233.
+Package pdftex.def Info: media/zimtschnecken.JPG  used on input line 2312.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
- [91 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/zimtschnecken.JPG>] [92]
-Overfull \hbox (50.40901pt too wide) in paragraph at lines 2310--2310
+ [95 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/zimtschnecken.JPG>] [96]
+Overfull \hbox (50.40901pt too wide) in paragraph at lines 2389--2389
 []  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [97]
 Overfull \vbox (2.56773pt too high) has occurred while \output is active []
 
- [94]
+ [98]
 File: media/pflaumenkuchen_v2.jpg Graphic file (type jpg)
 <use media/pflaumenkuchen_v2.jpg>
-Package pdftex.def Info: media/pflaumenkuchen_v2.jpg  used on input line 2352.
+Package pdftex.def Info: media/pflaumenkuchen_v2.jpg  used on input line 2431.
 (pdftex.def)             Requested size: 221.89232pt x 142.26378pt.
- [95 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/pflaumenkuchen_v2.jpg>] [96]
+ [99 </home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/media/pflaumenkuchen_v2.jpg>] [100]
 chapter 11.
-[97
+[101
 
 
-] [98
+] [102
 
 
 ]
 chapter 12.
-[99] (/home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.aux)
+[103] (/home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.aux)
 Package rerunfilecheck Info: File `AZ-Rezeptbuch.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37577 strings out of 478994
- 881831 string characters out of 5864752
- 1419570 words of memory out of 5000000
- 54066 multiletter control sequences out of 15000+600000
+ 37599 strings out of 478994
+ 882062 string characters out of 5864752
+ 1419571 words of memory out of 5000000
+ 54073 multiletter control sequences out of 15000+600000
  420643 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,20n,116p,10659b,936s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on /home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.pdf (103 pages, 11133157 bytes).
+Output written on /home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.pdf (107 pages, 11347159 bytes).
 PDF statistics:
- 1175 PDF objects out of 1200 (max. 8388607)
- 1005 compressed objects within 11 object streams
- 386 named destinations out of 1000 (max. 500000)
- 675 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1212 PDF objects out of 1440 (max. 8388607)
+ 1035 compressed objects within 11 object streams
+ 400 named destinations out of 1000 (max. 500000)
+ 688 words of extra memory for PDF output out of 10000 (max. 10000000)
 
