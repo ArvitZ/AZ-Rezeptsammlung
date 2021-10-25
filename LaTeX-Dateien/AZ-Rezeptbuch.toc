@@ -61,13 +61,14 @@
 \contentsline {subsection}{\numberline {10.3.1}Rührkuchen}{94}{subsection.10.3.1}%
 \contentsline {subsection}{\numberline {10.3.2}Bananenbrot}{96}{subsection.10.3.2}%
 \contentsline {subsection}{\numberline {10.3.3}Kürbisbrot}{98}{subsection.10.3.3}%
-\contentsline {subsection}{\numberline {10.3.4}Zupfkuchen}{100}{subsection.10.3.4}%
-\contentsline {subsection}{\numberline {10.3.5}Brownies}{102}{subsection.10.3.5}%
-\contentsline {subsection}{\numberline {10.3.6}Gedeckte Apple-Pie ($\pi $-Day-Pie)}{104}{subsection.10.3.6}%
-\contentsline {subsection}{\numberline {10.3.7}Hefezopf}{106}{subsection.10.3.7}%
-\contentsline {subsection}{\numberline {10.3.8}Zimtschnecken}{108}{subsection.10.3.8}%
-\contentsline {subsection}{\numberline {10.3.9}Muffins}{111}{subsection.10.3.9}%
-\contentsline {subsection}{\numberline {10.3.10}Pflaumenkuchen}{112}{subsection.10.3.10}%
-\contentsline {chapter}{\numberline {11}Getränke}{115}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Frühstück}{117}{chapter.12}%
+\contentsline {subsection}{\numberline {10.3.4}Pumpkin-Pie}{100}{subsection.10.3.4}%
+\contentsline {subsection}{\numberline {10.3.5}Zupfkuchen}{103}{subsection.10.3.5}%
+\contentsline {subsection}{\numberline {10.3.6}Brownies}{105}{subsection.10.3.6}%
+\contentsline {subsection}{\numberline {10.3.7}Gedeckte Apple-Pie ($\pi $-Day-Pie)}{107}{subsection.10.3.7}%
+\contentsline {subsection}{\numberline {10.3.8}Hefezopf}{109}{subsection.10.3.8}%
+\contentsline {subsection}{\numberline {10.3.9}Zimtschnecken}{111}{subsection.10.3.9}%
+\contentsline {subsection}{\numberline {10.3.10}Muffins}{114}{subsection.10.3.10}%
+\contentsline {subsection}{\numberline {10.3.11}Pflaumenkuchen}{115}{subsection.10.3.11}%
+\contentsline {chapter}{\numberline {11}Getränke}{117}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Frühstück}{119}{chapter.12}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
