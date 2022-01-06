@@ -23,6 +23,14 @@
 \usepackage[inline]{enumitem}										% Paket zum Bearbeiten der Enumerate und Itemize Umgebung
 \usepackage{hyperref}												% Paket zum Einbinden von Hyperlinks
 \usepackage{xcolor}             									% Paket zum Bearbeiten der Dokumentenfarbe
+\usepackage{xargs}													% Paket zum Erstellen von Funktionen mit vielen Argumenten
+
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
 
 \numberwithin{equation}{section} 									% Die Nummerierung von Gleichungen bekommt die jeweilige Section-Nummer als Präfix
 
@@ -38,9 +46,9 @@
 %\addbibresource{literatur.bib}										% Einbinden einer Bibliotheksdatei
 
 \title{AZ-Rezeptbuch}
-\subtitle{mit grundlegenden Rezepten aus aller Welt}
+\subtitle{Rezepte aus der Welt eines neugierigen Menschens}
 \author{Arvit Zankl}
-\date{seit 31.10.2020  \\\vspace{1cm} Version vom \today}
+\date{erstellt 31.10.2020  \\\vspace{1cm} Version vom \today}
 
 %----------------------------------------------------------------------------------------------
 %----------------------------------<ANFANG DES REZEPTBUCHES>-----------------------------------
@@ -50,8 +58,14 @@
 
 % Titelseite
 \maketitle
-\vspace{1cm}
-\textit{Finde die aktuellste Version auf \ \href{https://github.com/ArvitZ/AZ-Rezeptsammlung}{GitHub}. }
+
+\newpage
+
+\textit{
+Finde die aktuellste Version auf dem GitHub-Repository: \\\href{https://github.com/ArvitZ/AZ-Rezeptsammlung}{https://github.com/ArvitZ/AZ-Rezeptsammlung}. \\\\
+Verbesserungsvorschläge und Ergänzungen sind sehr erwünscht und können an folgende Mailadresse gesendet werden: \href{mailto:fla8za1@posteo.org}{fla8za1@posteo.org}. \\\\
+Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Repository beigetragen!
+}
 
 % Inhaltsverzeichnis
 \thispagestyle{empty}	% gerne würde ich im Inhaltsverzeichnis die Seitenzahlen ausblenden
@@ -63,9 +77,7 @@
 
 \chapter{Vorwort}
 	\setcounter{page}{1}
-	Dieses Rezeptbuch ist besonders gut geeignet für für perfektionistische Naturwissenschaftler*innen, Liebhaber*innen der eigenen Küche und Pfanne, DIY-Köchinnen/-Köchen und möchtegern Feinschmeckern*innen.
-
-	Verbesserungsvorschläge und Bug-Reports (bitte mit Log-Files!) können an \ \href{mailto:fla8za1@posteo.org}{meine Posteo-Mail} gesendet werden. 
+	Dieses Rezeptbuch ist besonders gut geeignet für perfektionistische Naturwissenschaftler*innen, Liebhaber*innen der eigenen Küche und Pfanne, DIY-Köchinnen/-Köchen und Möchte-gern-Feinschmeckern*innen.	
 \\
 \\
 	Faszinierend! Diese Leere. Hier soll noch ein richtiges Vorwort hinkommen.
@@ -85,17 +97,17 @@
 							&	\\
 	\begin{tabular}[t]{rr}
 		\textbf{Zutaten}	\\
-		Für ... g 			\\
-		Für ... Portionen	\\
+		\small Für ... g 			\\
+		\small Für ... Portionen	\\
 	\end{tabular}			&	\begin{tabular}[t]{llll}
 									... g & ... \\								
 								\end{tabular}	\\
 							&	\\
-	\textbf{Variationen}	&	\begin{itemize}[nosep]
+	\textbf{Variationen}	&	\begin{itemize}[]
 									\item ...
 								\end{itemize}	\\
 							&	\\	
-	\textbf{Passendes}		&	\begin{itemize}[nosep]
+	\textbf{Passendes}		&	\begin{itemize}[]
 									\item ...
 								\end{itemize}	\\
 							&	\\	
@@ -107,9 +119,9 @@
  
 	\begin{tabular}[t]{rr}
 		\textbf{Zubereitung}	\\
-		Vorbereitungszeit: ...	\\
-		Garzeit:	...		\\
-	\end{tabular}			&	\begin{enumerate}[nosep]
+		\small Vorbereitungszeit: ...	\\
+		\small Garzeit:	...		\\
+	\end{tabular}			&	\begin{enumerate}[]
 									\item ...
 								\end{enumerate}	\\
 \end{tabularx}
@@ -142,11 +154,11 @@
 										20-30 g & m/100 $=$ n/20 g & Salz \\								
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Tomatensoße
 										\item Bechamelsoße
 										\item Käse
@@ -158,7 +170,7 @@
 			Kochzeiten		\\
 			Spaghetti: 5-6 min \\
 			Penne, Fussili: 7-8 min \\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Gib in einen ausreichend großen Topf das Wasser und das Salz. Bringe es mit geschlossenem Deckel zum Kochen.
 										\item Gib die Nudeln hinzu, wenn das Wasser ordentlich blubbert und koche die Nudeln bei ordentlich blubberndem Wasser.
 									\end{enumerate}	\\
@@ -185,12 +197,12 @@
 										5g / 1L & Salz \\ 								
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item Curry-Reis
 										\item Milchreis
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Gemüse-Curry
 										\item Chili-Sin-Carne
 									\end{itemize}	\\
@@ -198,7 +210,7 @@
 		\begin{tabular}[t]{rr}
 			\textbf{Zubereitung}	\\
 			Zubereitungszeit: 15-45 min	\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Bringe das Wasser mit dem Salz in einem Topf zum Kochen.
 										\item Gib den Reis hinzu, stelle die Hitze auf die niedrigste Stufe herunter und lasse den Reis die spezifische Kochzeit lang mit Deckel kochen.
 										\item Kontrolliere, dass die Konsistenz stimmt und nicht zu viel Wasser übrig ist.
@@ -224,11 +236,11 @@
 										5 g & n/100 g & Salz \\							
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
@@ -236,7 +248,7 @@
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 10 min schälen	\\
 			Kochzeit: 20-30 min		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Schäle und viertle die Kartoffeln
 										\item Gib sie in einen großen Kochtopf mit genug Wasser, um sie bedeckt zu halten und gib das Salz hinzu.
 										\item Stelle den Kochtopf auf die Herdplatte und stelle sie auf die maximale Stufe.
@@ -267,21 +279,21 @@
 										\textit{Belugalinsen} & ? Wasser & Kochzeit ? min\\						
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item Falaffel aus pürierten Linsen
 										\item Linsensalat mit frischen Zwiebeln, Essig und Öl
 										\item Linseneintopf mit Senf
 										\item Bratlinge mit Linsen
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
 		\begin{tabular}[t]{rr}
 			\textbf{Zubereitung}	\\
 			Kochzeit: 20-30 min\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Bringe das Wasser in einem Topf zum Kochen.
 										\item Gib die Linsen hinzu, stelle die Hitze auf die niedrigste Stufe herunter und lasse die Linsen die spezifische Kochzeit lang mit Deckel kochen.
 										\item Kontrolliere, dass die Konsistenz stimmt und schütte dann das verbliebene Wasser weg.
@@ -314,11 +326,11 @@
 										Gemüsebrühe/sonstige Würzung \\	
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item Süßer Couscous?
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Gemüse (Erbsen. Mais)
 										\item Beilage als Proteinquelle
 									\end{itemize}	\\
@@ -326,7 +338,7 @@
 		\begin{tabular}[t]{rr}
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 5-10 min	\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Bringe gesalzenes Wasser in einem Topf zum Kochen und füge optionale Würzung hinzu.
 										\item Gib den Couscous hinzu, rühre gut um, nehme den Topf vom Herd und lasse den Couscous 5-10 min quellen.
 									\end{enumerate}	\\
@@ -356,11 +368,11 @@
 										Salz, Pfeffer \\							
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Reis
 										\item Kartoffeln
 										\item Spätzle
@@ -370,7 +382,7 @@
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 10 min	\\
 			Gesamtzeit:	30 min		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Schneide das Gemüse in kleine gleichgroße Stücke
 										\item Erhitze ein wenig Öl in einem Topf und brate das Gemüse zuerst leicht an
 										\item Gib das Milchprodukt der Wahl hinzu und würze mit ein wenig Salz und Pfeffer
@@ -402,11 +414,11 @@
 										Salz, Pfeffer \\								
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Kartoffeln
 										\item Fleisch
 									\end{itemize}	\\
@@ -415,7 +427,7 @@
 			\textbf{Zubereitung}	\\
 			Vorbereitungszeit: 15 min	\\
 			Garzeit:	20-30 min		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Wasche die Bohnen und schneide die beiden harten Enden ab.
 										\item Schneide die Zwiebeln und den Knoblauch in kleine Würfel.
 										\item Brate die Zwiebeln in einer Pfanne mit ordentlich Öl glasig.
@@ -446,14 +458,14 @@
 										6 ? g & Salz \\							
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item Mediterrane Würzung: Olivenöl, Rosmarin, Oregano, Thymian
 										\item Asiatische Würzung: Knoblauch, Ingwer, Sojasoße
 										\item Indische Würzung: Kurkuma, Koriander, Kreuzkümmel, Paprikapulver, Chilipulver
 										\item Standard Würzung: Pfeffer, wenig Knoblauch, Paprikapulver, Chilipulver, Gemüsebrühe
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Burger
 										\item Reis, Couscous
 										\item Soßen
@@ -468,7 +480,7 @@
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 15 min	\\
 			Gesamtzeit:	30-45 min \\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 											\item Mische zu allererst das Glutenmehl mit der gewünschten Würzung gleichmäßig.
 											\item Gib nun unter das Wasser hinzu und rühre alles gut durch. Es sollte ein sehr elastischer Kaugummi-artiger Teig entstehen.
 											\item Gare den rohen Seitan indem du eines der Gar-Verfahren durchführt
@@ -519,11 +531,11 @@
 										Würzungen \\		
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item Standard-Würzung: Kräuter, Petersilie, Chili, Knoblauch, Zwiebeln
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Reis
 										\item Pita-Brot
 									\end{itemize}	\\
@@ -532,7 +544,7 @@
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: ...	\\
 			Gesamtzeit:	...		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Püriere die gekochten Kichererbsen möglichst fein in einem hohen Gefäß.
 										\item Würze die Masse und verknetet alles.
 										\item Gib so viel Mehl hinzu, sodass eine gut formbare Masse entsteht.
@@ -568,11 +580,11 @@
 										& Gewürze: Kurkuma, Koriander, Paprikapulver, Piment \\			
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Joghurt-Dip 
 										\item Kräuterquark
 										\item Bratling im Burger
@@ -586,7 +598,7 @@
 			\textbf{Zubereitung}	\\
 			Vorbereitungszeit: 30 min	\\
 			Garzeit: 20-30 min		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Reibe oder schneide das Gemüse möglichst fein und gib alles in eine große Schüssel.
 										\item Gibt die Eier, das Mehl, das Salz und die Gewürze hinzu und mische alles gut unter, sodass einer gleichmäßiger Teig entsteht.
 										\item Erhitze eine oder mehrere Pfannen mit ordentlich Bratöl und gib vier mal 1-2 EL des Teiges in jede Pfanne.
@@ -620,12 +632,12 @@
 										5 g & Salz \\								
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item \textit{Weiße Soße} mit weißem Pfeffer und Muskat
 										\item \textit{Käsesoße} mit 50-100 g Cheddar, Gouda oder Gorgonzola 
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Nudeln
 										\item Spätzle
 									\end{itemize}	\\
@@ -633,7 +645,7 @@
 		\begin{tabular}[t]{rr}
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 5-10 min		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Gib die Butter in einem Topf, lasse sie schmelzen und füge bei niedriger Hitze und ständigem Rühren das Mehl hinzu. Der Arbeitsschritt nennt sich Mehlschwitze.
 										\item Gib die Milch hinzu und rühre, bis die Soße anfängt zu kochen.
 										\item Koche sie für ein paar Minuten, da der Mehlgeschmack hiermit verschwinden soll.
@@ -664,12 +676,12 @@
 											Salz, Pfeffer \\
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item Arrabiata: füge Chillis nach Belieben hinzu
 											\item Bolognese: Brate zu Anfang 500g Hackfleisch mit den Zwiebeln und dem Knoblauch an
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Nudeln, Pizza, Lasagne
 										\end{itemize}	\\
 									&	\\	
@@ -683,7 +695,7 @@
 				\textbf{Zubereitung}	\\
 				Vorbereitungszeit: 15 min	\\
 				Garzeit:	10-15 min		\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Schneide die Zwiebeln und den Knoblauch in kleine Stücke und brate sie in dem Olivenöl glasig an.
 											\item Gib die Tomaten, die Gewürze und den Schuss Rotwein hinzu und lasse alles 10-15 min Kochen, bis die gewünschte Konsistenz erreicht ist. 
 										\end{enumerate}	\\
@@ -714,18 +726,18 @@
 											& 3 g & Salz						
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Nudeln
 									\end{itemize}	\\
 								&	\\	
 		\begin{tabular}[t]{rr}
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 15 min	\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Zupfe die Blätter des Basilikums von den Stängeln und wasche sie.
 										\item Schäle den Knoblauch und gib alle Zutaten in ein Gefäß zum Pürieren.
 										\item Püriere bis die gewünschte Konsistenz erreicht ist.
@@ -754,11 +766,11 @@
 										Gewürze: & Kurkuma, Paprikapulver, Koriander, Piment, Cumin, ...\\							
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Reis
 									\end{itemize}	\\
 								&	\\	
@@ -766,7 +778,7 @@
 			\textbf{Zubereitung}	\\
 			Vorbereitungszeit: ...	\\
 			Garzeit:	10 min		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Gib die Kokosmilch in einen Kochtopf, erhitze ihn und löse die Erdnussbutter auf.
 										\item Würze die Sauce und stelle die Konsistenz über Abkochen oder Andicken mit einer Stärkelösung ein.
 									\end{enumerate}	\\
@@ -812,11 +824,11 @@
 										Petersilie	\\
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item 1/3 Vollkorn und 2/3 550er Weizenmehl
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Zwiebeln, angeröstet
 									\end{itemize}	\\
 								&	\\
@@ -829,7 +841,7 @@
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 20-30 min	\\
 			Gesamtzeit:	30-45 min	\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Setze mindestens 2 l Wasser zum Kochen auf.
 										\item Verrühre Mehl, Salz, Eier und Wasser in einer Schüssel, so lange, bis der Teig Fäden zieht und nicht zu flüssig ist.
 										\item Schneide die Zwiebel in Ringe und brate sie in einer Pfanne glasig an, mit Öl und ein wenig Salz.
@@ -869,11 +881,11 @@
 										2 EL & Mehl \\
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Reis
 										\item Nudeln
 									\end{itemize}	\\
@@ -887,7 +899,7 @@
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 30 min	\\
 			Gesamtzeit:	10-20 min	\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Das Fleisch oder den Seitan schneiden und falls nötig in der Brühe kochen. 
 										\item Die Brühe abfüllen und eine Mehlschwitze im Topf ansetzen.
 										\item Nun die Brühe unter Rühren wieder hinzugeben und die Champignons 15 min kochen lassen.
@@ -925,11 +937,11 @@
 											& Petersilie, Lorbeer, Majoran \\								
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item ...
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Pochiertes Ei
 											\item Vollkornbrötchen (Rezept \ref{Broetchen} )
 											\item Wiener Würstchen
@@ -940,7 +952,7 @@
 				Arbeitszeit: 20 min	\\
 				Gesamtzeit:	45 min		\\
 				Kochzeit: 30 min	\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Setze das Wasser mit der Brühe zum Kochen an.
 											\item Schäle die Kartoffeln, würfel sie und gib sie in die Brühe.
 											\item Schneide die Karotten in Scheiben, sodass die Garzeit zu den Kartoffel vergleichbar ist und gib sie in die Brühe.
@@ -979,11 +991,11 @@
 											Bratöl
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item ...
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Brot
 										\end{itemize}	\\
 									&	\\	
@@ -996,7 +1008,7 @@
 				\textbf{Zubereitung}	\\
 				Arbeitszeit: 1h	\\
 				Garzeit: 30 min	\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Schäle und schneide die Kartoffeln, Zwiebeln und Möhren.
 											\item Röste die Zwiebeln mit dem Bratöl in einem großen Topf an.
 											\item Gib das Gemüse und die Brühe hinzu.
@@ -1028,11 +1040,11 @@
 											viel hoch erhitzbares Öl! \\							
 										\end{tabular}	\\
 			%						&	\\
-			%\textbf{Variationen}	&	\begin{itemize}[nosep]
+			%\textbf{Variationen}	&	\begin{itemize}[]
 			%								\item ...
 			%							\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Kräuterquark
 											\item Apfelmus
 											\item Zimt \& Zucker
@@ -1048,7 +1060,7 @@
 				\textbf{Zubereitung}	\\
 				Vorbereitungszeit: 30-45 min	\\
 				Garzeit: 5 min pro Stück		\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Schäle und reibe die Kartoffel (einfach gesagt, mühsam gemacht!)
 											\item Drücke die Flüssigkeit aus den Kartoffeln in ein Gefäß und lasse es stehen, bis sich die Stärke absetzt und diese verwendet werden kann!
 											\item Schneide die Zwiebeln in Würfel, gib sie mit dem Mehl zu den Kartoffeln und verrühre alles.
@@ -1093,13 +1105,13 @@
 												1 TL & Limettensaft \\
 											\end{tabular}	\\
 										&	\\
-				\textbf{Variationen}	&	\begin{itemize}[nosep]
+				\textbf{Variationen}	&	\begin{itemize}[]
 												\item mit Honig
 												\item mit Erdnussbutter
 												\item mit Hühnerfleisch
 											\end{itemize}	\\
 
-				\textbf{Passendes}		&	\begin{itemize}[nosep]
+				\textbf{Passendes}		&	\begin{itemize}[]
 												\item Basmatireis
 												\item Naan-Fladenbrot
 											\end{itemize}	\\
@@ -1115,7 +1127,7 @@
 					schnippeln dauert...	\\
 					Kochzeit: 20-30 min \\
 					Gesamtzeit:	1h 		\\
-				\end{tabular}			&	\begin{enumerate}[nosep]
+				\end{tabular}			&	\begin{enumerate}[]
 												\item Schwitze die Zwiebeln mit Sonnenblumenöl an.
 												\item Gib die Tomaten hinzu und lasse die Flüssigkeit etwas verkochen.
 												\item Nun gib Garam Masala, Ginger-Garlic-Paste und die Chili hinzu und vermische alles gut.
@@ -1149,11 +1161,11 @@
 
 											\end{tabular}	\\
 										&	\\
-				\textbf{Variationen}	&	\begin{itemize}[nosep]
+				\textbf{Variationen}	&	\begin{itemize}[]
 												\item ...
 											\end{itemize}	\\
 										&	\\	
-				\textbf{Passendes}		&	\begin{itemize}[nosep]
+				\textbf{Passendes}		&	\begin{itemize}[]
 												\item Helles Brot (am besten Pav)
 											\end{itemize}	\\
 										&	\\	
@@ -1161,7 +1173,7 @@
 					\textbf{Zubereitung}	\\
 					Vorbereitungszeit: 20 min	\\
 					Garzeit:	30-60 min		\\
-				\end{tabular}			&	\begin{enumerate}[nosep]
+				\end{tabular}			&	\begin{enumerate}[]
 												\item Schneide das Gemüse in kleine Stücke.
 												\item Brate die Zwiebeln glasig an, gib den Knoblauch und die Tomaten hinzu und koche alles etwas ein.
 												\item Füge das restliche Gemüse hinzu und dünste es mit Deckel bis es sehr weich ist.
@@ -1222,11 +1234,11 @@
 
 
 										&	\\
-				\textbf{Variationen}	&	\begin{itemize}[nosep]
+				\textbf{Variationen}	&	\begin{itemize}[]
 												\item ...
 											\end{itemize}	\\
 										&	\\	
-				\textbf{Passendes}		&	\begin{itemize}[nosep]
+				\textbf{Passendes}		&	\begin{itemize}[]
 												\item Basmatireis gewürzt mit Kurkuma, Koriander, Majoran und schwarzem Kümmel
 											\end{itemize}	\\
 										&	\\	
@@ -1237,7 +1249,7 @@
 					\textbf{Zubereitung}	\\
 					Vorbereitungszeit: 1 h	\\
 					Garzeit:	20-30 min		\\
-				\end{tabular}			&	\begin{enumerate}[nosep]
+				\end{tabular}			&	\begin{enumerate}[]
 												\item Schneide das Hähnchenfleisch in Stücke und mariniere es in dem Zitronen-/Limettensaft um den Geschmack etwas angenehmer zu machen.
 												\item Währendessen gib in einem separaten großen Gefäß die grob geschnittenen Tomate, Zwiebel und Knoblauchzehen hinein und mixe alles durch.
 												\item Füge die Mango und die Feigen hinzu und mixer erneut.
@@ -1277,7 +1289,7 @@
 												20 ml & Sonnenblumenöl \\
 											\end{tabular}	\\
 										&	\\
-				\textbf{Variationen}	&	\begin{itemize}[nosep]
+				\textbf{Variationen}	&	\begin{itemize}[]
 												\item Krompiruša: vegetarische Feta-Füllung mit 300 g gekochten kleinen Kartoffelstückchen
 												\item Burek: Füllung mit Hackfleich:
 												\begin{tabular}{lll}
@@ -1288,7 +1300,7 @@
 												\end{tabular}
 											\end{itemize}	\\
 										&	\\	
-				\textbf{Passendes}		&	\begin{itemize}[nosep]
+				\textbf{Passendes}		&	\begin{itemize}[]
 												\item Joghurt
 												\item Lauchgemüse
 												\item Diverse Dips
@@ -1306,7 +1318,7 @@
 					Benötigtes Material: \\ Baumwolltuch mind. 70x70cm \\ 2 Auflaufformen \\
 					Backtemperatur: 200°C \\
 					Backzeit: 30-40 min \\
-				\end{tabular}			&	\begin{enumerate}[nosep]
+				\end{tabular}			&	\begin{enumerate}[]
 												\item Breite den Teig unter viel Kneten vor und lasse ihn vor dem Dehnen mindestens 20 min ruhen. Tipp: Erheblich weniger Knetaufwand ist nötig, wenn der Teig am Vortag zusammengestellt wird und über mehrere Stunden ruhen kann.
 												\item Stelle die gewünschte Füllung unter Mischung der angegebenen Zutaten zusammen.
 												\item Gib die Hälfte des Teiges auf eine große Arbeitsfläche mit einem großen Baumwolltuch überspannt, welches ordentlich bemehlt ist. Rolle, drücke oder ziehe den Teig nun so weit aus, bis man die eignenen Finger hindurch sehen kann. Dabei muss stehts genug Mehl zwischen Teig, Tuch und Werkzeug sein, was am Besten mit regelmäßigem Wenden des Teiges möglich ist.
@@ -1354,14 +1366,14 @@
 												& Oregano, Thymian \\
 											\end{tabular}	\\
 										&	\\
-				\textbf{Variationen}	&	\begin{itemize}[nosep]
+				\textbf{Variationen}	&	\begin{itemize}[]
 												\item Mais, Zwiebeln, Champignons, Lauch (angedünstet), Brokkoli (angedünstet)
 												\item Salami, Schinken
 												\item Ananas, wem es gefällt
 												\item gebacken auf Pizzastahl oder Pizzastein für schnellere Wärmeübertragung
 											\end{itemize}	\\
 										&	\\	
-				%\textbf{Passendes}		&	\begin{itemize}[nosep]
+				%\textbf{Passendes}		&	\begin{itemize}[]
 				%								\item 
 				%							\end{itemize}	\\
 				%						&	\\	
@@ -1376,7 +1388,7 @@
 					Vorbereitungszeit: 10 min pro Blech	\\
 					Backtemperatur: 250°C oder mehr		\\
 					Backzeit: 10-15 min pro Blech \\  
-				\end{tabular}			&	\begin{enumerate}[nosep]
+				\end{tabular}			&	\begin{enumerate}[]
 												\item Bereite den Hefeteig bestenfalls am Vortag nach Rezept \ref{hefeteig_grundrezept} zu und lasse ihn gehen, sodass er zum Verarbeiten möglichst luftig und entspannt ist.
 												\item Bemehle das Backbleck mit viel Mehl und gib den Teig direkt drauf, um möglichst viel Luft zu behalten. Ist nicht ordentlich Mehl vorhanden wird die gebackene Pizza nie wieder diese Blech in einem Stück verlassen!
 												\item Drücke nun von innen nach außen die Teigkugel immer flacher, was bei einem guten entspannten Teig recht einfach gehen sollte. Bringe den Teig auf einen Durchmesser von 25-30 cm für runde Pizzen oder fülle das ganze Blech für eine platzeffiziente Belchpizza.
@@ -1408,11 +1420,11 @@
 													10 g & Parmesan \\
 												\end{tabular}	\\
 											&	\\
-					\textbf{Variationen}	&	\begin{itemize}[nosep]
+					\textbf{Variationen}	&	\begin{itemize}[]
 													\item ...
 												\end{itemize}	\\
 											&	\\	
-					\textbf{Passendes}		&	\begin{itemize}[nosep]
+					\textbf{Passendes}		&	\begin{itemize}[]
 													\item ...
 												\end{itemize}	\\
 											&	\\	
@@ -1427,7 +1439,7 @@
 						Vorbereitungszeit: 45 min	\\
 						Backtemperatur \& Zeit:	\\180°C, 30-40 min	\\
 						Material: \\ große Auflaufform \\
-					\end{tabular}			&	\begin{enumerate}[nosep]
+					\end{tabular}			&	\begin{enumerate}[]
 													\item Bereite die Tomatensoße gemäß Rezept \ref{} und die Bechamelsoße gemäß Rezept \ref{bechamelsoße} gleichzeitig zu.
 													\item Entscheide wieviele Schichten nötig sein werden und welche Schichtung nötig ist um weiße Soße auf der obersten zu haben. Wenn man 6 Schichten macht, muss mit Tomatensoße begonnen werden, wobei auf jeder Schicht jeweils ein Drittel der jeweiligen Soße untergebracht werden muss.
 													\item Schichte die Lasagne, bis zu oberesten hellen Ebene, welche zusätzlich mit dem Käse überrieben wird.
@@ -1471,11 +1483,11 @@
 \begin{tabularx}{\textwidth}{r|L}
 
 												&	\\
-						\textbf{Variationen}	&	\begin{itemize}[nosep]
+						\textbf{Variationen}	&	\begin{itemize}[]
 														\item ...
 													\end{itemize}	\\
 												&	\\	
-						\textbf{Passendes}		&	\begin{itemize}[nosep]
+						\textbf{Passendes}		&	\begin{itemize}[]
 														\item ...
 													\end{itemize}	\\
 												&	\\	
@@ -1483,7 +1495,7 @@
 						\begin{tabular}[t]{rr}
 							\textbf{Zubereitung}	\\
 							Vorbereitungszeit: 30 min	\\
-						\end{tabular}			&	\begin{enumerate}[nosep]
+						\end{tabular}			&	\begin{enumerate}[]
 														\item Brate zuerst die Burger Pattys an, wobei währendessen das Gemüse geschnitten werden sollte.
 														\item Gib auf die fast fertigen Pattys den Käse drauf, damit dieser durch die Hitze schmelzen kann.
 														\item Schneide die Brötchen auf und gib auf die untere Hälfte Ketchup und Mayonnaise während auf die Oberseite Senf und die Avocado-Creme kommt.
@@ -1525,14 +1537,14 @@
 										1/2 TL & schwarzer Pfeffer \\					
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&  \begin{itemize}[nosep]
+		\textbf{Variationen}	&  \begin{itemize}[]
 										\item für gelbes Masala füge 1 EL Kurkuma hinzu
  									\end{itemize}\\
 		\begin{tabular}[t]{rr}
 			\textbf{Zubereitung}	\\
 			Vorbereitungszeit: 15 min	\\
 			Garzeit:	5 min		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Röste die genannten Zutaten in einer Pfanne an und mahle sie anschließend zu einem Pulver.
 									\end{enumerate}	\\
 	\end{tabularx}
@@ -1570,7 +1582,7 @@
 			\textbf{Zubereitung}	\\
 			Vorbereitungszeit: 15 min	\\
 			Garzeit:	5 min		\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Röste die genannten Zutaten in einer Pfanne an und mahle sie anschließend zu einem Pulver.
 									\end{enumerate}	\\
 	\end{tabularx}
@@ -1607,14 +1619,14 @@
 											30 g & 1 EL & Butter, Öl \\
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item Käsepfannkuchen
 											\item Pancakes
 											\item Crêpe
 											\item Spinatpfannkuchen (Spinat, Zwiebeln, Knoblauch, Frischkäse)
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Ahornsirup, Marmelade, Schokocrème mit Banane, Zucker mit Zitronensaft
 										\end{itemize}	\\
 									&	\\	
@@ -1625,7 +1637,7 @@
 				\textbf{Zubereitung}	\\
 				Arbeitszeit: 15 + 30 min \\
 				Gesamtzeit:	45 min		\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Vermische das Mehl mit dem Salz und einem Teil des Zucker in einer angemessen großen Schüssel.
 											\item Trenne des Ei und schlage es mit dem übrigen Zucker zu Eischnee.
 											\item Gib anfangs einen Teil der Milch zum Teig und verrühre alles möglichst homogen.
@@ -1667,10 +1679,10 @@
 			\end{tabular}			&	\begin{tabular}[t]{llll}
 											Dampfnudelteig: \\
 											\begin{tabular}{lll}
-												400 g & Weizenmehl, 550er \\
-												200 g & Milch \\
-												15 g & Zucker \\
-												4 g & Salz \\
+												500 g & Weizenmehl, 550er \\
+												250 g & Milch \\
+												30 g & Zucker \\
+												5 g & Salz \\
 												60 g & Butter \\
 												1 g & Trockenhefe \\
 											\end{tabular} \\
@@ -1687,17 +1699,17 @@
 											\end{tabular} \\
 											ODER zum Dämpfen bis das Wasser verkocht: \\
 											\begin{tabular}{lll}
-												300 ml & Wasser \\
-												3 EL & Öl \\
+												300 ml & Wasser oder Milch \\
+												3 EL & Öl oder Butter \\
 												3 g & Salz \\
 											\end{tabular} \\
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item ...
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Vanillesoße
 											\item Mohnzucker
 										\end{itemize}	\\
@@ -1711,15 +1723,15 @@
 				Arbeitszeit: 30 min	\\
 				Gehzeit: 12-24 h \\
 				Kochzeit: 20 min \\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Löse die Hefe in der Flüssigkeit in einer angemessen großen Schüssel auf.
 											\item Gib das Mehl, die Butter, den Zucker und das Salz hinzu und verrühre kurz alles homogen.
 											\item Knete nun den Teig für 10 min ordentlich, sodass sich das Gluten gut bilden kann.
 											\item Lasse den Teig 20-24 h bei Zimmertemperatur gehen.
 											\item Bringe den Teig, mit möglichst wenig Mehleinsatz, nun wieder unter Spannung, fülle ihn eventuell und forme eine Kugel.
-											\item Lasse den Teigling 1-3 h abgedeckt ruhen, sodass er ordentlich an Größe gewinnt und nicht austrocknet.
+											\item Optional: Lasse den Teigling 1-3 h abgedeckt ruhen, sodass er ordentlich an Größe gewinnt und nicht austrocknet.
 											\item Gib das Wasser, das Öl und das Salz in einen großen Topf mit Deckel und bringe es zum Kochen.
-											\item Gibt die Teiglinge hinzu, regle die Hitze herunter und lasse sie für 20 min bei geschlossenem Deckel garen.
+											\item Gibt die Teiglinge hinzu, regle die Hitze herunter und lasse sie für 20 min bei geschlossenem Deckel garen. Achte dabei darauf, dass sie nicht anbrennen!
 										\end{enumerate}	\\
 		\end{tabularx}
 		\newpage
@@ -1746,17 +1758,17 @@
 											Salz \\								
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item Schokopudding mit 10g Kakaopulver
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Dampfnudeln (Rezept \ref{dampfnudeln})
 										\end{itemize}	\\
 									&	\\	
 			\begin{tabular}[t]{rr}
 				\textbf{Zubereitung}	\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Löse die Stärke, den Zucker in einem Teil der kalten Milch und gib die Vanille hinzu.
 											\item Bringe die Milch zum Kochen und rühre anschließend die Pudding-Mischung ein.
 											\item Lasse alles ein paar Minuten unter rühren ordentlich kochen und gib es in ein anderes Gefäß zum Abkühlen.
@@ -1788,11 +1800,11 @@
 											1/2 TL & Backpulver \\
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item ...
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Schlagsahne
 											\item Kirschen
 										\end{itemize}	\\
@@ -1801,7 +1813,7 @@
 				\textbf{Zubereitung}	\\
 				Arbeitszeit: 15 min	\\
 				Garzeit pro Waffel: 2-3 min	\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Butter mit dem Zucker vermischen und Eier hinzugeben.
 											\item Separat das Mehl mit dem Backpulver mischen und anschließend kurz in die Zucker-Butter-Ei-Masse einrühren.
 											\item Lasse den Teig optimalerweise vor dem Backen mind. 30 min im Kühlschrank quellen für eine bessere Konsistenz.
@@ -1831,11 +1843,11 @@
 										10 g & Butter \\								
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item Grießpudding mit erhöhen auf 80 g Grieß
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item Rosinen
 										\item Butter
 										\item Apfelmus
@@ -1845,7 +1857,7 @@
 		\begin{tabular}[t]{rr}
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 10 min
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Gib Milch mit dem Zucker in einen Topf und bringe sie zum Kochen.
 										\item Füge nun den Grieß hinzu und rühre gut, während der Grießbrei deutlich andicken sollte.
 										\item Nun kann der Brei von der Herdplatte genommen werden und muss nur noch für 5 min quellen gelassen werden. Dabei kann er schon in die Gefäße zum Servieren gegeben werden!
@@ -1874,11 +1886,11 @@
 									1 Prise & Salz							
  								\end{tabular}	\\
  							&	\\
- 	\textbf{Variationen}	&	\begin{itemize}[nosep]
+ 	\textbf{Variationen}	&	\begin{itemize}[]
  									\item ...
  								\end{itemize}	\\
  							&	\\	
- 	\textbf{Passendes}		&	\begin{itemize}[nosep]
+ 	\textbf{Passendes}		&	\begin{itemize}[]
  									\item Zimt \& Zucker
  									\item Kirschen
  									\item Apfelmus
@@ -1888,7 +1900,7 @@
  		\textbf{Zubereitung}	\\
  		Arbeitszeit: 1h	\\
  		Kochzeit: 40 min		\\
- 	\end{tabular}			&	\begin{enumerate}[nosep]
+ 	\end{tabular}			&	\begin{enumerate}[]
  									\item Gib die Milch in einen Topf und löse den Zucker auf.
 									\item Bringe die Milch zum Kochen und gib den Milchreis hinzu.
 									\item Stelle die Platte auf die kleinste Flamme, rühre alle 10 min und lasse es insgesamt 40 min kochen.
@@ -1913,11 +1925,12 @@
 			Für 4 Portionen	\\
 		\end{tabular}			&	\begin{tabular}[t]{llll}
 										100 g & Zucker &\\
+										2 EL & Wasser & \\
 										10 g & Butter & (Anteil nach gewünschter Karamell-Konsistenz \\ & & wählen!)\\	
 										1 g & Salz & 							
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item Karamellpopcorn
 										\item Fudge (4:1 Zucker zu Butter)
 										\item Gewürztes Karamell mit Anis, Kardamom, Zimt und Vanille am Ende in die Zuckermasse eingeknetet
@@ -1925,15 +1938,16 @@
 										\item Creme Brulée
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
 		\begin{tabular}[t]{rr}
 			\textbf{Zubereitung}	\\
 			Arbeitszeit: 20 min	\\
-		\end{tabular}			&	\begin{enumerate}[nosep]
-										\item Gib den Zucker in einen leicht zu spülenden Topf und erhitze ihn, bis er eine leichte Verfärbung sehen lässt.
+		\end{tabular}			&	\begin{enumerate}[]
+										\item Rühre aus dem Wasser und Zucker einen dicken Sirup an, damit ein gleichmäßiges Erhitzen ermöglicht wird. Je mehr Wasser verwendet wird, desto länger braucht die Herstellung, da erst das Wasser komplett verkocht sein muss bevor der Zucker richtig karamellisiert. 
+										\item Gib den Zuckersirup in einen leicht zu spülenden Topf und erhitze ihn, bis er eine leichte Verfärbung sehen lässt.
 										\item Ergänze den geschmolzenen Zucker mit der gewünschten Buttermenge und rühre alles gut um.
 									\end{enumerate}	\\
 	\end{tabularx}
@@ -1973,10 +1987,10 @@
 										60 g & Tomatenpesto (getrocknete Tomaten, Hartkäse, \\ & Olivenöl, Basilikum, Knoblauch) \\
 										100 g & Käse, nach Geschmack   							
 									\end{tabular}	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item mit Basilikum-Pesto und Cashew-Kernen
 									\end{itemize}	\\
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\	
 		% für zweiseitiges Rezept entkommentieren!
@@ -1990,7 +2004,7 @@
 			Vorbereitungszeit: 20 min	\\
 			Backtemperatur: 250°C	\\
 			Backzeit: 10-15 min
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Stelle den Basis-Hefeteig nach Rezept \ref{hefeteig_grundrezept} her.
 										\item Teile den Teig in zwei gleiche Stücke und drücke beide auf einer bemehlten Arbeitsfläche zu einem Rechteck von ca. 10x40cm aus.
 										\item Streiche das Pesto auf den Rechtecken aus und lege den Käse darauf, lasse jedoch an der langen Seite eine Rand von ca. 2cm frei!
@@ -2032,15 +2046,15 @@
 											100 g	&	Zucker	\\	
 										\end{tabular}	\\
 		%							&	\\
-		%	\textbf{Variationen}	&	\begin{itemize}[nosep]
+		%	\textbf{Variationen}	&	\begin{itemize}[]
 		%									\item
 		%								\end{itemize}	\\
 		%							&	\\	
-		%	\textbf{Passendes}		&	\begin{itemize}[nosep]
+		%	\textbf{Passendes}		&	\begin{itemize}[]
 		%									\item
 		%								\end{itemize}	\\
 									&	\\
-			\textbf{Zubereitung}	&	\begin{enumerate}[nosep]
+			\textbf{Zubereitung}	&	\begin{enumerate}[]
 											\item Gib Butter und Zucker in die Teigschüssel und verrühre die Masse gleichmäßig.
 											\item Füge das Mehl und das Ei hinzu.
 											\item Knete den Mürbeteig kurz mit den Händen, bis er homogen ist.
@@ -2073,15 +2087,15 @@
 											1-5 g	&	Frischhefe		&	oder 0,5-1 g Trockenhefe\\			
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item 4/5 Vollkornmehl und 1/5 550er
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item
 										\end{itemize}	\\
 									&	\\
-			\textbf{Zubereitung}	&	\begin{enumerate}[nosep]
+			\textbf{Zubereitung}	&	\begin{enumerate}[]
 											\item	Falls frische Hefe verwendet wird, löse diese in dem Wasser auf.
 											\item 	Gib das Mehl, das Salz und falls verwendet die Trockenhefe in eine Schüssel und vermische es kurz.
 											\item 	Füge das Wasser hinzu und verrühre die Masse grob, bis das Wasser gebunden ist.
@@ -2133,11 +2147,11 @@
 										0,5 g & Trockenhefe \\						
 									\end{tabular}	\\
 								&	\\
-		\textbf{Variationen}	&	\begin{itemize}[nosep]
+		\textbf{Variationen}	&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\	
-		\textbf{Passendes}		&	\begin{itemize}[nosep]
+		\textbf{Passendes}		&	\begin{itemize}[]
 										\item ...
 									\end{itemize}	\\
 								&	\\
@@ -2153,7 +2167,7 @@
 			Gehzeit: 6-12 h			\\
 			Backzeit: 30-40 min		\\
 			Backtemperatur: 220-250°C \\
-		\end{tabular}			&	\begin{enumerate}[nosep]
+		\end{tabular}			&	\begin{enumerate}[]
 										\item Bereite einen Hefeteig aus den Zutaten gemäß des Rezeptes \ref{hefeteig_grundrezept} zu.
 										\item Nach der Gehzeit teile den Teig auf einer bemehlten Oberfläche in 16 Teile mit je ~100 g.
 										\item Bringe die Brötchen in Form mit einer Technik der Wahl und lege sie mit genügend Mehl auf ein Backblech, wobei mit genügend Mehl kein Backpapier benötigt wird.
@@ -2185,11 +2199,11 @@
 												Sesam \& Schwarzkümmel \\							
 											\end{tabular}	\\
 										&	\\
-				\textbf{Variationen}	&	\begin{itemize}[nosep]
+				\textbf{Variationen}	&	\begin{itemize}[]
 												\item ...
 											\end{itemize}	\\
 										&	\\	
-				\textbf{Passendes}		&	\begin{itemize}[nosep]
+				\textbf{Passendes}		&	\begin{itemize}[]
 												\item Burger
 											\end{itemize}	\\
 										&	\\	
@@ -2205,7 +2219,7 @@
 					Gehzeit:	12-24 h		\\
 					Backtemperatur \& Zeit: \\
 					200°C, 20 min
-				\end{tabular}			&	\begin{enumerate}[nosep]
+				\end{tabular}			&	\begin{enumerate}[]
 												\item Stelle einen Hefeteig ähnlich Rezept \ref{hefeteig_grundrezept} her, wobei die Konsistenz ruhig etwas flüssiger sein darf.
 												\item Lasse den Teig möglichst für 12-24 h gehen.
 												\item Bemehle eine Oberfläche ordentlich, gib den Teig darauf, falte ihn zusammen und teile ihn in 6 gleiche Stücke.
@@ -2242,7 +2256,7 @@
 											6 g & Salz \\						
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item Naan-Brot
 											\begin{tabular}{lll}
 												60 ml & Joghurt \\
@@ -2253,7 +2267,7 @@
 											\end{tabular} 
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Tex-Mex Wraps mit Bohnen, Crème Fraîche, Mais, Hackfleich und Salsa
 											\item Salat, Gemüse, Soßen, Seitan 
 										\end{itemize}	\\
@@ -2266,7 +2280,7 @@
 				\textbf{Zubereitung}	\\
 				Arbeitszeit: 10 min	\\
 				Gesamtzeit:	40 min		\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Gib Mehl, Salz, Wasser in ein Gefäß und vermenge alles grob.
 											\item Knete nun den Teig am besten mit den Händen ordentlich, bis genug Spannung in das Gluten gebracht wurde.
 											\item Lasse den Teig mindestens 30 min in einem abgeschlossenen Behälter ruhen, sodass er vom Austrocken bewahrt ist.
@@ -2311,13 +2325,13 @@
 											Milch, nach belieben \\								
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item mit Schokodrops, Blaubeeren, Rosinen
 											\item mit Kakao für Schokokuchen
 											\item mit Zitronensaft getränkt und Zuckerguss
 										\end{itemize}	\\
 			%						&	\\	
-			%\textbf{Passendes}		&	\begin{itemize}[nosep]
+			%\textbf{Passendes}		&	\begin{itemize}[]
 			%								\item ...
 			%							\end{itemize}	\\
 									&	\\
@@ -2332,7 +2346,7 @@
 				Vorbereitungszeit: 15 min	\\
 				Backzeit:	45-60 min		\\
 				Backtemperatur: 200°C \\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Gibt die weiche Butter und den Zucker in eine Teigschüssel und verrühre es gleichmäßig.
 											\item Füge die Eier hinzu, mixe das Backpulver unter das Mehl und gib alles in die Teigschüssel und verrühre es.
 											\item Falls die Konsistenz etwas flüssiger sein soll füge Milch hinzu.
@@ -2370,11 +2384,11 @@
 
 										\end{tabular}	\\
 			%						&	\\
-			%\textbf{Variationen}	&	\begin{itemize}[nosep]
+			%\textbf{Variationen}	&	\begin{itemize}[]
 			%								\item ...
 			%							\end{itemize}	\\
 			%						&	\\	
-			%\textbf{Passendes}		&	\begin{itemize}[nosep]
+			%\textbf{Passendes}		&	\begin{itemize}[]
 			%								\item ...
 			%							\end{itemize}	\\
 			%						&	\\	
@@ -2387,7 +2401,7 @@
 				Vorbereitungszeit: 20 min	\\
 				Backtemperatur: 180°C \\
 				Backzeit:	45-60 min	\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Zerdrücke 3 Bananen in einer Schüssel und gebe Zucker, Vanille, Salz, Öl und Milch hinzu. Vermenge alles gleichmäßig.
 											\item Mische getrennt davon Mehl und Backpulver, welches anschließend zusammen mit der gehackten Schokoladen in die bereits vorbereitete Masse eingerührt werden kann.
 											\item Gib den Teig in eine Backform und lege die letzte Banane halbiert oben drauf.
@@ -2423,11 +2437,11 @@
 											1-3 g	&	Trockenhefe									
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Butter drauf ;)
 										\end{itemize}	\\
 									&	\\	
@@ -2435,7 +2449,7 @@
 				\textbf{Zubereitung}	\\
 				Arbeitszeit: 	\\
 				Gesamtzeit:		\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item
 										\end{enumerate}	\\
 		\end{tabularx}
@@ -2468,11 +2482,11 @@
 											& 4 g & Salz \\ 			
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item Sahne kann durch den etwas frischeren säuerlichen Geschmack von Joghurt ersetzt werden											
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Schlagsahne
 											\item Geröstete Nüsse obendrauf
 										\end{itemize}	\\
@@ -2487,8 +2501,8 @@
 				\textbf{Zubereitung}	\\
 				Vorbereitungszeit: 1h	\\
 				Backtemperatur, Zeit: 200°C, 20-30 min		\\
-				Material: 24cm-Springform \\ 
-			\end{tabular}			&	\begin{enumerate}[nosep]
+				Material: 23cm-Springform \\ 
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Bereite den Boden des Kürbiskuchens, wie einen normalen Mürbeteigboden \ref{muerbeteig} zu.
 											\item Für die Füllung muss der Hokkaido in Stücken 10-20 min gekocht werden, sodass es nach dem Pürieren eine homogene Masse ergibt.
 											\item Nun können alle restlichen Zutaten der Füllung hinzugegeben werden und homogen vermischt.
@@ -2542,7 +2556,7 @@
 				Backzeit: 40-45 min	\\
 				Abkühlen: mind. 1h \\
 				(ansonsten Matsch!)\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Vermische die Zutaten für den Kakao-Boden in einer Schüssel, bis sich ein gleichmäßiger Teig bildet.
 											\item Lege 2/3 des Teiges gleichmäßig in die Springform.
 											\item Rühre die Füllung an und gib sie in die Springform.
@@ -2577,14 +2591,18 @@
 											Vanille
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item ...
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item ...
 										\end{itemize}	\\
 									&	\\	
+									\end{tabularx}
+									\newpage
+									\begin{tabularx}{\textwidth}{r|L}
+			
 			\begin{tabular}[t]{rr}
 				\textbf{Zubereitung}	\\
 				Arbeitszeit: 15 min	\\
@@ -2592,7 +2610,7 @@
 				Backtemperatur: 180°C	\\
 				Backzeit: 45 min \\
 				\emph{Achtung! Muss gar sein!}	\\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Mehl und Salz in einer Schüssel verrühren
 											\item Schokolade, Butter in einem Topf langsam erhitzen
 											\item Zucker in die geschmolzenen Zutaten geben und gleichmäßig verrühren
@@ -2638,11 +2656,11 @@
 											\end{tabular}								
 										\end{tabular}	\\
 									&	\\
-	%		\textbf{Variationen}	&	\begin{itemize}[nosep]
+	%		\textbf{Variationen}	&	\begin{itemize}[]
 	%										\item ...
 	%									\end{itemize}	\\
 	%								&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Vanillesoße
 											\item Schlagsahne
 										\end{itemize}	\\
@@ -2655,7 +2673,7 @@
 				Arbeitszeit: ...	\\
 				Backtemperatur: 180°C \\
 				Backzeit: 45-60 min \\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Gib Mehl, Zucker, Salz in eine Schüssel, schneide die kalte Butter in kleine Würfel, damit sie besser verknetet werden kann und vermenge alles mit einem Stampfwerkzeug. Dabei soll die Butter möglichst nicht schmelzen, also sind die Hände eher ungeeignet.
 											\item Füge nun nach und nach so viel Wasser hinzu, bis eine gute Konsistenz für die Verarbeitung vorhanden ist.
 											\item Forme eine Kugel und lasse alles für 30-60 min im Kühlschrank liegen.
@@ -2691,7 +2709,7 @@
 											1 g & Trockenhefe \\
 										\end{tabular} \\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Butter
 											\item Marmelade
 										\end{itemize}	\\
@@ -2705,7 +2723,7 @@
 				Gehzeit: ca. 12 h \\
 				Backtemperatur: 180 °C \\
 				Backzeit: 30-40 min \\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Löse die Hefe in der Milch in einer angemessen großen Schüssel auf.
 											\item Gib das Mehl, die Butter, den Zucker, die Hälfte des Ei und das Salz hinzu und verrühre kurz alles homogen.
 											\item Knete nun den Teig für 10 min ordentlich, sodass sich das Gluten gut bilden kann.
@@ -2748,11 +2766,11 @@
 											& Kardamom \\
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item ...
 										\end{itemize}	\\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Vanillesoße \ref{vanillesosse}
 											\item Frosting aus Sahne, Zucker, Salz, Butter
 										\end{itemize}	\\
@@ -2766,7 +2784,7 @@
 				Arbeitszeit: 45 min	\\
 				Backzeit: 20-30 min	\\
 				Backtemperatur: 180°C \\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Vermische die trockenen Zutaten des Hefeteigs miteinander.
 											\item Gib die Flüssigkeit und die Butter hinzu.
 											\item Lasse den Teig für 12-24 h gehen, sodass er sich mindestens verdoppelt.
@@ -2803,7 +2821,7 @@
 											evtl. Milch? \\								
 										\end{tabular}	\\
 									&	\\
-			\textbf{Variationen}	&	\begin{itemize}[nosep]
+			\textbf{Variationen}	&	\begin{itemize}[]
 											\item Schokomuffins 
 												\begin{tabular}{llll}
 													2 EL & Kakaopulver \\
@@ -2816,7 +2834,7 @@
 												\end{tabular}
 										\end{itemize} \\
 									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item ...
 										\end{itemize}	\\
 									&	\\	
@@ -2825,7 +2843,7 @@
 				Arbeitszeit: 20 min	\\
 				Backzeit: 20-30 min		\\
 				Backtemperatur: 180°C \\
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Gib den Zucker und weiche Butterstücke in eine Schüssel und verrühre sie.
 											\item Füge die Eier hinzu und rühre sie gleichmäßig unter.
 											\item Mische das Mehl in einer anderen Schüssel mit dem Backpulver, dem Salz und eventuellen andern trockenen Zutaten.
@@ -2872,7 +2890,7 @@
 											& 1 g & Salz \\
 											& 1/2 TL & Zimt \\
 										\end{tabular} \\ 
-			\textbf{Passendes}		&	\begin{itemize}[nosep]
+			\textbf{Passendes}		&	\begin{itemize}[]
 											\item Schlagsahne
 										\end{itemize}	\\
 
@@ -2886,7 +2904,7 @@
 				Gehzeit: 12-24 h			\\
 				Backtemperatur: 200°C		\\
 				Backzeit: 20-30 min 
-			\end{tabular}			&	\begin{enumerate}[nosep]
+			\end{tabular}			&	\begin{enumerate}[]
 											\item Setze mit den Zutaten für den Boden einen süßen Hefeteig analog zu Rezept \ref{Hefezopf} an und lasse ihn gehen.
 											\item Wasche, entkerne und halbiere die Pflaumen. Vermische sie mit dem Zucker, sodass sie ihren Saft etwas abgeben.
 											\item Bereite die Streusel zu, indem Zucker, Butter, Salz, Zimt und Mehl in dieser Reihenfolge vermischt werden. Lasse auf die Streuselmasse im Kühlschrank stehen um abzukühlen.
@@ -2898,6 +2916,88 @@
 		\newpage
 		
 
+		\subsection{Schoko-Creme-Nuss-Kuchen}	\label{schokoCremeNussKuchen}
+
+		\begin{tabularx}{\textwidth}{r|L}
+			%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
+			%						&	\\
+			\textbf{Beschreibung}	&	Eine Kuchen-Kreation, welche auf Wunsch hin mit Agni zusammen in der Holzbude entstand und viele Geschmackserlebnisse mit vielen Konsistenzen kombiniert! Weicher schokoloadiger Kuchen mit frischer Crème dazwischen und karamellisierten knusprigen Nüssen.\\
+									&	\\
+			\begin{tabular}[t]{rr}
+				\textbf{Zutaten}	\\
+				\small Für 23cm-Springform\\
+				\small Für 12-16 Portionen\\
+			\end{tabular}			&	\begin{tabular}[t]{llll}
+										1. Schokoladenkuchen: \\
+											250 g & Weizenmehl, 550er \\
+											6 & Eier \\
+											250 g & Zucker \\
+											200 g & Schokolade, zartbitter 70\% \\
+											250 g & Butter \\
+											2 TL & Backkakao \\
+											1 g & Salz \\\\
+										2. Crème-Füllung \\
+											400 ml & Sahne, geschlagen/Quark/Pudding ?\\ 
+											100 g & Butter/Pflanzenöl \\
+											60 g & Zucker \\
+											& für frischen Geschmack Zitrone, Orange? \\
+											\\
+										3. Nusskrokant \\
+											100 g & Macadamianüsse/Haselnüsse/Mandeln? \\
+											100 g & Zucker \\
+											2 EL & Wasser \\
+											2 g & Salz 
+										\end{tabular}	\\
+									&	\\
+			\textbf{Variationen}	&	\begin{itemize}[]
+											\item ...
+										\end{itemize}	\\
+									&	\\	
+			\textbf{Passendes}		&	\begin{itemize}[]
+											\item ...
+										\end{itemize}	\\
+									&	\\	
+		% für zweiseitiges Rezept entkommentieren!
+			\end{tabularx}
+			\newpage
+			\begin{tabularx}{\textwidth}{r|L}
+		
+		
+			\begin{tabular}[t]{rr}
+				\textbf{Zubereitung}	\\
+				\small Vorbereitungszeit: 1.5h	\\
+				\small Backtemperatur/Zeit: \\ 
+				\small 180°C, 20-30 min \\\\
+				\small Material: 23cm-Springform\\ 
+				\small mind. 2 Teigschüsseln \\
+			\end{tabular}			&	\begin{enumerate}[]
+
+											\item Schokoladenkuchen:
+											\begin{enumerate}[]
+											\item Schmelze die Schokolade langsam und trenne währendessen die Eier.
+											\item Gibt die Butter und die Eigelb langsam zu der warmen Schokolade und verrühre alles gut.
+											\item Vermische das Eiweiß in einer weiteren Schüssel mit dem Zucker und Salz und schlage Eischnee daraus bis er steif ist.
+											\item Ist die Schokomasse ausreichend abgekühlt, hebe den Eischnee mit einem Handwerkzeug unter.
+											\item Rühre das Mehl und den Kakao ein, fette die Backform und gibt alles hinein.
+											\item Backe den Schokokuchen für 20-30 min bei 180°C, wobei er ruhig noch schön saftig sein sollte.
+											\end{enumerate}
+
+											\item Crème-Füllung:
+											\begin{enumerate}[]
+											\item Rühre die Basis aus Sahne, Quark oder Pudding nach Belieben an.
+											\item Gib die restlichen Zutaten hinzu, um eine Füllung nach eigener Vorstellung herzustellen.
+											\item Ist der Kuchen fertig und genug abgekühlt, kann er horizontal aufgeschnitten werden und 2/3 der Füllung zwischen die Hälften und 1/3 darauf gestrichen werden.
+											\end{enumerate}
+
+											\item Nusskrokant:
+											\begin{enumerate}
+												\item Löse den Zucker mit etwas Wasser zu einem Sirup in einer Pfanne oder einem breiten Topf.
+												\item Koche Karamell, wie beschrieben in Rezept \ref{karamell} und füge die gehackten Nüsse gegen Ende hinzu.
+												\item Lasse sie auf einer Fläche ausgebreitet abkühlen und streue sie auf den Kuchen.
+											\end{enumerate}
+										\end{enumerate}	\\
+		\end{tabularx}
+		\newpage
 		
 
 
