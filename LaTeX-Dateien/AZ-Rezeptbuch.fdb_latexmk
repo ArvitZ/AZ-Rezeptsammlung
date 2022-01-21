@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1642290786 "/home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.tex" "AZ-Rezeptbuch.pdf" "AZ-Rezeptbuch" 1642290788
-  "/home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.tex" 1642290783 126489 0773facdbe39d31da9b4c5f8389a0650 ""
+["pdflatex"] 1642801383 "/home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.tex" "AZ-Rezeptbuch.pdf" "AZ-Rezeptbuch" 1642801385
+  "/home/arvit/.repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.tex" 1642801380 127956 010836c2f82fa30ba061a17080609aa5 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1640600964 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1640600964 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -242,10 +242,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1641765914 336600 6f90c65e159aaf8faaa6ea56bf6655c4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1641765908 2920114 2344a87035a9aa81b7f9a86bb9741ead ""
-  "AZ-Rezeptbuch.aux" 1642290788 32368 d9421332941963a0bca2fa56414fe0ae "pdflatex"
-  "AZ-Rezeptbuch.out" 1642290787 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "AZ-Rezeptbuch.tex" 1642290783 126489 0773facdbe39d31da9b4c5f8389a0650 ""
-  "AZ-Rezeptbuch.toc" 1642290788 6074 80b9b51a3e629d5280b178ceb47d126c "pdflatex"
+  "AZ-Rezeptbuch.aux" 1642801384 32758 1daed093c6afa6cc8042547a9f47bfcd "pdflatex"
+  "AZ-Rezeptbuch.out" 1642801383 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "AZ-Rezeptbuch.tex" 1642801380 127956 010836c2f82fa30ba061a17080609aa5 ""
+  "AZ-Rezeptbuch.toc" 1642801384 6150 b3b4ce234b91507d608640aaf3412482 "pdflatex"
   "media/Falaffel.JPG" 1630196470 441230 56b0e2de36c1a1a75e15a0e8653a4ed6 ""
   "media/Fladenbrot.JPG" 1630196470 368694 bae8bb39e2fbebb19975b13076a83e7c ""
   "media/Lauchgemüse.JPG" 1630196471 395098 61e91fcc868bd090ba32c377e2979e43 ""
@@ -270,6 +270,7 @@
   "media/lasagne.JPG" 1634344902 309901 8346002561fd11ef8444f7ea791d2887 ""
   "media/linseneintopf.jpg" 1630196475 533981 b1b1cfcaec1ff5768727ced9080f95e1 ""
   "media/naan_brot.JPG" 1632520080 341102 5ea81dd51f4cdb3d61ea4e9be6cbeb97 ""
+  "media/orangenquark.JPG" 1642801342 636951 73f683385879cdf65c69487dfd159ac8 ""
   "media/pesto_nudeln.JPG" 1630196475 493224 27d37530eaca147dd9673925069ebd2b ""
   "media/pfannkuchen.jpg" 1630196475 21116 9f0331d9adbd44cc2d33d75a99084f05 ""
   "media/pflaumenkuchen_v2.jpg" 1632426701 164993 4d7e75c24724aa2133b0132c97d94d01 ""
