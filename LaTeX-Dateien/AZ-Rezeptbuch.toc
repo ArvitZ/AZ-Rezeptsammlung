@@ -38,44 +38,45 @@
 \contentsline {section}{\numberline {6.9}Pizza}{59}{section.6.9}%
 \contentsline {section}{\numberline {6.10}Lasagne}{61}{section.6.10}%
 \contentsline {section}{\numberline {6.11}Burger}{64}{section.6.11}%
-\contentsline {chapter}{\numberline {7}Gewürzmischungen}{67}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Garam Masala}{68}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Pav Bhaji Masala}{69}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Süßspeisen}{71}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Pfannkuchen}{73}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Dampfnudeln}{76}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Vanille-Soße und -Pudding}{78}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Waffeln}{80}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Grießbrei oder Grießpudding}{82}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Milchreis}{83}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Karamell}{85}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Früchtequark}{88}{section.8.8}%
-\contentsline {chapter}{\numberline {9}Snacks}{89}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Pizzabrötchen}{89}{section.9.1}%
-\contentsline {chapter}{\numberline {10}Gebäck}{91}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Grundteige}{92}{section.10.1}%
-\contentsline {subsection}{\numberline {10.1.1}Mürbeteig}{93}{subsection.10.1.1}%
-\contentsline {subsection}{\numberline {10.1.2}Hefeteig}{95}{subsection.10.1.2}%
-\contentsline {section}{\numberline {10.2}Brot}{96}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Chiabatta}{97}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Brötchen}{100}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Brioche-Burger-Bun}{101}{subsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.3.3}Fladenbrot}{103}{subsection.10.3.3}%
-\contentsline {section}{\numberline {10.4}Süßgebäck}{105}{section.10.4}%
-\contentsline {subsection}{\numberline {10.4.1}Rührkuchen}{106}{subsection.10.4.1}%
-\contentsline {subsection}{\numberline {10.4.2}Bananenbrot}{108}{subsection.10.4.2}%
-\contentsline {subsection}{\numberline {10.4.3}Kürbisbrot}{110}{subsection.10.4.3}%
-\contentsline {subsection}{\numberline {10.4.4}Pumpkin-Pie}{112}{subsection.10.4.4}%
-\contentsline {subsection}{\numberline {10.4.5}Zupfkuchen}{115}{subsection.10.4.5}%
-\contentsline {subsection}{\numberline {10.4.6}Brownies}{116}{subsection.10.4.6}%
-\contentsline {subsection}{\numberline {10.4.7}Gedeckte Apple-Pie ($\pi $-Day-Pie)}{119}{subsection.10.4.7}%
-\contentsline {subsection}{\numberline {10.4.8}Hefezopf}{121}{subsection.10.4.8}%
-\contentsline {subsection}{\numberline {10.4.9}Teigschnecken}{124}{subsection.10.4.9}%
-\contentsline {subsection}{\numberline {10.4.10}Muffins}{127}{subsection.10.4.10}%
-\contentsline {subsection}{\numberline {10.4.11}Pflaumenkuchen}{129}{subsection.10.4.11}%
-\contentsline {subsection}{\numberline {10.4.12}Schoko-Creme-Nuss-Kuchen}{132}{subsection.10.4.12}%
-\contentsline {chapter}{\numberline {11}Getränke}{135}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Frühstück}{137}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Anhang}{139}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Liste von Gemüse nach Garzeit}{139}{section.13.1}%
+\contentsline {section}{\numberline {6.12}Bratnudeln}{67}{section.6.12}%
+\contentsline {chapter}{\numberline {7}Gewürzmischungen}{69}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Garam Masala}{70}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Pav Bhaji Masala}{71}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Süßspeisen}{73}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Pfannkuchen}{75}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Dampfnudeln}{78}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Vanille-Soße und -Pudding}{80}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Waffeln}{82}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Grießbrei oder Grießpudding}{84}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Milchreis}{85}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Karamell}{87}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Früchtequark}{90}{section.8.8}%
+\contentsline {chapter}{\numberline {9}Snacks}{91}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Pizzabrötchen}{91}{section.9.1}%
+\contentsline {chapter}{\numberline {10}Gebäck}{93}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Grundteige}{94}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Mürbeteig}{95}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Hefeteig}{97}{subsection.10.1.2}%
+\contentsline {section}{\numberline {10.2}Brot}{98}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Chiabatta}{99}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Brötchen}{102}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Brioche-Burger-Bun}{103}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Fladenbrot}{105}{subsection.10.3.3}%
+\contentsline {section}{\numberline {10.4}Süßgebäck}{107}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Rührkuchen}{108}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Bananenbrot}{110}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}Kürbisbrot}{112}{subsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.4.4}Pumpkin-Pie}{114}{subsection.10.4.4}%
+\contentsline {subsection}{\numberline {10.4.5}Zupfkuchen}{117}{subsection.10.4.5}%
+\contentsline {subsection}{\numberline {10.4.6}Brownies}{118}{subsection.10.4.6}%
+\contentsline {subsection}{\numberline {10.4.7}Gedeckte Apple-Pie ($\pi $-Day-Pie)}{121}{subsection.10.4.7}%
+\contentsline {subsection}{\numberline {10.4.8}Hefezopf}{123}{subsection.10.4.8}%
+\contentsline {subsection}{\numberline {10.4.9}Teigschnecken}{126}{subsection.10.4.9}%
+\contentsline {subsection}{\numberline {10.4.10}Muffins}{129}{subsection.10.4.10}%
+\contentsline {subsection}{\numberline {10.4.11}Pflaumenkuchen}{131}{subsection.10.4.11}%
+\contentsline {subsection}{\numberline {10.4.12}Schoko-Creme-Nuss-Kuchen}{134}{subsection.10.4.12}%
+\contentsline {chapter}{\numberline {11}Getränke}{137}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Frühstück}{139}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Anhang}{141}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Liste von Gemüse nach Garzeit}{141}{section.13.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
