@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.9)  10 FEB 2022 01:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.9)  17 MAR 2022 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -781,18 +781,18 @@ Overfull \hbox (14.81427pt too wide) in paragraph at lines 68--69
 
 
 ] [4]
-Overfull \hbox (2.03697pt too wide) detected at line 80
- []\T1/cmss/bx/n/12 141
- []
-
-
 Overfull \hbox (2.03697pt too wide) detected at line 81
- []\T1/cmss/bx/n/12 143
+ []\T1/cmss/bx/n/12 145
  []
 
 
 Overfull \hbox (2.03697pt too wide) detected at line 82
- []\T1/cmss/bx/n/12 145
+ []\T1/cmss/bx/n/12 147
+ []
+
+
+Overfull \hbox (2.03697pt too wide) detected at line 83
+ []\T1/cmss/bx/n/12 149
  []
 
 )
@@ -833,36 +833,36 @@ l.178 	\newpage
                 [4]pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.219 	\newpage
+l.220 	\newpage
                 [5]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.260 	\newpage
+l.261 	\newpage
                 [6]
-<media/Falaffel.JPG, id=244, 4047.12pt x 3035.34pt>
-File: media/Falaffel.JPG Graphic file (type jpg)
-<use media/Falaffel.JPG>
-Package pdftex.def Info: media/Falaffel.JPG  used on input line 305.
+<media/Falafel.JPG, id=247, 4047.12pt x 3035.34pt>
+File: media/Falafel.JPG Graphic file (type jpg)
+<use media/Falafel.JPG>
+Package pdftex.def Info: media/Falafel.JPG  used on input line 306.
 (pdftex.def)             Requested size: 448.13095pt x 336.06526pt.
- [7] [8 <./media/Falaffel.JPG>] [9] [10
+ [7] [8 <./media/Falafel.JPG>] [9] [10
 
 
 ]
 chapter 3.
 File: media/Lauchgemüse.JPG Graphic file (type jpg)
 <use media/Lauchgemüse.JPG>
-Package pdftex.def Info: media/Lauchgemüse.JPG  used on input line 392.
+Package pdftex.def Info: media/Lauchgemüse.JPG  used on input line 393.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-Overfull \vbox (145.83351pt too high) has occurred while \output is active []
+Overfull \vbox (142.501pt too high) has occurred while \output is active []
 
  [12 <./media/Lauchgemüse.JPG>] [13]
 File: media/seitan.JPG Graphic file (type jpg)
 <use media/seitan.JPG>
-Package pdftex.def Info: media/seitan.JPG  used on input line 475.
+Package pdftex.def Info: media/seitan.JPG  used on input line 476.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -871,9 +871,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (135.63866pt too high) has occurred while \output is active []
 
  [15 <./media/seitan.JPG>] [16]
-File: media/Falaffel.JPG Graphic file (type jpg)
-<use media/Falaffel.JPG>
-Package pdftex.def Info: media/Falaffel.JPG  used on input line 556.
+File: media/Falafel.JPG Graphic file (type jpg)
+<use media/Falafel.JPG>
+Package pdftex.def Info: media/Falafel.JPG  used on input line 557.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -884,43 +884,37 @@ Overfull \vbox (177.05328pt too high) has occurred while \output is active []
  [18]
 File: media/zucchini_bratling.JPG Graphic file (type jpg)
 <use media/zucchini_bratling.JPG>
-Package pdftex.def Info: media/zucchini_bratling.JPG  used on input line 594.
+Package pdftex.def Info: media/zucchini_bratling.JPG  used on input line 595.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (25.11395pt too wide) in paragraph at lines 594--594
+Overfull \hbox (25.11395pt too wide) in paragraph at lines 595--595
 []|[]|  
  []
 
+[19 <./media/zucchini_bratling.JPG>] [20] [21] [22
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-Overfull \vbox (27.63097pt too high) has occurred while \output is active []
-
- [20 <./media/zucchini_bratling.JPG>] [21] [22]
+]
 chapter 4.
-File: media/bechamelsoße.png Graphic file (type png)
-<use media/bechamelsoße.png>
-Package pdftex.def Info: media/bechamelsoße.png  used on input line 654.
+File: media/bechamelsauce.png Graphic file (type png)
+<use media/bechamelsauce.png>
+Package pdftex.def Info: media/bechamelsauce.png  used on input line 656.
 (pdftex.def)             Requested size: 189.48401pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23
+ [23]
+Overfull \vbox (202.84714pt too high) has occurred while \output is active []
 
-
-]
-Overfull \vbox (178.34714pt too high) has occurred while \output is active []
-
- [24 <./media/bechamelsoße.png>]
-Overfull \hbox (14.53458pt too wide) in paragraph at lines 702--702
+ [24 <./media/bechamelsauce.png>]
+Overfull \hbox (14.53458pt too wide) in paragraph at lines 704--704
 []|[]|  
  []
 
 [25]
 File: media/pesto_nudeln.JPG Graphic file (type jpg)
 <use media/pesto_nudeln.JPG>
-Package pdftex.def Info: media/pesto_nudeln.JPG  used on input line 745.
+Package pdftex.def Info: media/pesto_nudeln.JPG  used on input line 747.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -929,7 +923,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (35.34387pt too high) has occurred while \output is active []
 
  [27 <./media/pesto_nudeln.JPG>]
-Overfull \hbox (55.1995pt too wide) in paragraph at lines 785--785
+Overfull \hbox (55.1995pt too wide) in paragraph at lines 787--787
 []|[]|  
  []
 
@@ -944,14 +938,14 @@ chapter 5.
 ]
 chapter 6.
 [31] [32]
-Overfull \hbox (32.42917pt too wide) in paragraph at lines 836--836
+Overfull \hbox (32.42917pt too wide) in paragraph at lines 838--838
 []|[]|  
  []
 
 [33] [34]
 File: media/frikasse.jpg Graphic file (type jpg)
 <use media/frikasse.jpg>
-Package pdftex.def Info: media/frikasse.jpg  used on input line 894.
+Package pdftex.def Info: media/frikasse.jpg  used on input line 896.
 (pdftex.def)             Requested size: 213.68942pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -963,22 +957,22 @@ Overfull \vbox (2.84853pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-Overfull \vbox (81.08568pt too high) has occurred while \output is active []
+Overfull \vbox (231.58568pt too high) has occurred while \output is active []
 
  [40]
 File: media/linseneintopf.jpg Graphic file (type jpg)
 <use media/linseneintopf.jpg>
-Package pdftex.def Info: media/linseneintopf.jpg  used on input line 1003.
+Package pdftex.def Info: media/linseneintopf.jpg  used on input line 1009.
 (pdftex.def)             Requested size: 213.68942pt x 142.26378pt.
  [41 <./media/linseneintopf.jpg>] [42]
 File: media/kartoffelpuffer.jpg Graphic file (type jpg)
 <use media/kartoffelpuffer.jpg>
-Package pdftex.def Info: media/kartoffelpuffer.jpg  used on input line 1054.
+Package pdftex.def Info: media/kartoffelpuffer.jpg  used on input line 1060.
 (pdftex.def)             Requested size: 189.49522pt x 142.26378pt.
  [43 <./media/kartoffelpuffer.jpg>] [44]
 File: media/aloo_masala.JPG Graphic file (type jpg)
 <use media/aloo_masala.JPG>
-Package pdftex.def Info: media/aloo_masala.JPG  used on input line 1119.
+Package pdftex.def Info: media/aloo_masala.JPG  used on input line 1125.
 (pdftex.def)             Requested size: 191.50485pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -987,7 +981,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (126.82043pt too high) has occurred while \output is active []
 
  [46 <./media/aloo_masala.JPG>] [47]
-Overfull \hbox (55.89801pt too wide) in paragraph at lines 1191--1191
+Overfull \hbox (55.89801pt too wide) in paragraph at lines 1197--1197
 []|[]|  
  []
 
@@ -998,7 +992,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (56.32596pt too high) has occurred while \output is active []
 
  [49]
-Overfull \hbox (55.89801pt too wide) in paragraph at lines 1245--1245
+Overfull \hbox (55.89801pt too wide) in paragraph at lines 1251--1251
 []|[]|  
  []
 
@@ -1011,19 +1005,19 @@ Overfull \vbox (11.23227pt too high) has occurred while \output is active []
  [53] [54]
 File: media/pita_roh.jpg Graphic file (type jpg)
 <use media/pita_roh.jpg>
-Package pdftex.def Info: media/pita_roh.jpg  used on input line 1422.
+Package pdftex.def Info: media/pita_roh.jpg  used on input line 1428.
 (pdftex.def)             Requested size: 197.58835pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55]
-Overfull \vbox (173.30365pt too high) has occurred while \output is active []
+Overfull \vbox (187.80365pt too high) has occurred while \output is active []
 
  [56 <./media/pita_roh.jpg>]
-<media/pita_zubereitung.jpg, id=580, 1341.3312pt x 894.2208pt>
+<media/pita_zubereitung.jpg, id=585, 1341.3312pt x 894.2208pt>
 File: media/pita_zubereitung.jpg Graphic file (type jpg)
 <use media/pita_zubereitung.jpg>
-Package pdftex.def Info: media/pita_zubereitung.jpg  used on input line 1444.
+Package pdftex.def Info: media/pita_zubereitung.jpg  used on input line 1450.
 (pdftex.def)             Requested size: 313.69029pt x 209.11856pt.
 
 
@@ -1032,7 +1026,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [57]
 File: media/pizza.JPG Graphic file (type jpg)
 <use media/pizza.JPG>
-Package pdftex.def Info: media/pizza.JPG  used on input line 1493.
+Package pdftex.def Info: media/pizza.JPG  used on input line 1499.
 (pdftex.def)             Requested size: 219.95657pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1043,23 +1037,23 @@ Overfull \vbox (150.35727pt too high) has occurred while \output is active []
  [59 <./media/pizza.JPG>] [60]
 File: media/lasagne.JPG Graphic file (type jpg)
 <use media/lasagne.JPG>
-Package pdftex.def Info: media/lasagne.JPG  used on input line 1544.
+Package pdftex.def Info: media/lasagne.JPG  used on input line 1550.
 (pdftex.def)             Requested size: 238.06166pt x 142.26378pt.
  [61 <./media/lasagne.JPG>]
 
-LaTeX Warning: Reference `' on page 62 undefined on input line 1560.
+LaTeX Warning: Reference `' on page 62 undefined on input line 1566.
 
 [62]
 File: media/burger.JPG Graphic file (type jpg)
 <use media/burger.JPG>
-Package pdftex.def Info: media/burger.JPG  used on input line 1593.
+Package pdftex.def Info: media/burger.JPG  used on input line 1599.
 (pdftex.def)             Requested size: 189.73767pt x 142.26378pt.
 File: media/burger_v2.JPG Graphic file (type jpg)
 <use media/burger_v2.JPG>
-Package pdftex.def Info: media/burger_v2.JPG  used on input line 1593.
+Package pdftex.def Info: media/burger_v2.JPG  used on input line 1599.
 (pdftex.def)             Requested size: 189.26657pt x 142.26378pt.
 
-Overfull \hbox (65.70674pt too wide) in paragraph at lines 1593--1593
+Overfull \hbox (71.58029pt too wide) in paragraph at lines 1599--1599
 []|[]|  
  []
 
@@ -1072,10 +1066,10 @@ Overfull \vbox (23.19153pt too high) has occurred while \output is active []
  [64 <./media/burger.JPG> <./media/burger_v2.JPG>] [65]
 File: media/bratnudeln.jpg Graphic file (type jpg)
 <use media/bratnudeln.jpg>
-Package pdftex.def Info: media/bratnudeln.jpg  used on input line 1655.
+Package pdftex.def Info: media/bratnudeln.jpg  used on input line 1661.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (20.66983pt too wide) in paragraph at lines 1655--1655
+Overfull \hbox (20.66983pt too wide) in paragraph at lines 1661--1661
 []|[]|  
  []
 
@@ -1088,10 +1082,10 @@ Overfull \vbox (48.22183pt too high) has occurred while \output is active []
  [67 <./media/bratnudeln.jpg>] [68]
 File: media/bratreis.jpg Graphic file (type jpg)
 <use media/bratreis.jpg>
-Package pdftex.def Info: media/bratreis.jpg  used on input line 1720.
+Package pdftex.def Info: media/bratreis.jpg  used on input line 1726.
 (pdftex.def)             Requested size: 207.22081pt x 142.26378pt.
 
-Overfull \hbox (389.90443pt too wide) in paragraph at lines 1720--1720
+Overfull \hbox (389.90443pt too wide) in paragraph at lines 1726--1726
 []|[]|  
  []
 
@@ -1114,7 +1108,7 @@ chapter 8.
 [75]
 File: media/pfannkuchen.jpg Graphic file (type jpg)
 <use media/pfannkuchen.jpg>
-Package pdftex.def Info: media/pfannkuchen.jpg  used on input line 1850.
+Package pdftex.def Info: media/pfannkuchen.jpg  used on input line 1856.
 (pdftex.def)             Requested size: 189.19444pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1123,10 +1117,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (100.98868pt too high) has occurred while \output is active []
 
  [77 <./media/pfannkuchen.jpg>]
-<media/spinat_pfannkuchen.JPG, id=728, 1341.3312pt x 894.2208pt>
+<media/spinat_pfannkuchen.JPG, id=733, 1341.3312pt x 894.2208pt>
 File: media/spinat_pfannkuchen.JPG Graphic file (type jpg)
 <use media/spinat_pfannkuchen.JPG>
-Package pdftex.def Info: media/spinat_pfannkuchen.JPG  used on input line 1877.
+Package pdftex.def Info: media/spinat_pfannkuchen.JPG  used on input line 1883.
 (pdftex.def)             Requested size: 268.8813pt x 179.25032pt.
 
 
@@ -1138,7 +1132,7 @@ Overfull \vbox (94.11467pt too high) has occurred while \output is active []
  [78]
 File: media/dampfnudel.jpg Graphic file (type jpg)
 <use media/dampfnudel.jpg>
-Package pdftex.def Info: media/dampfnudel.jpg  used on input line 1935.
+Package pdftex.def Info: media/dampfnudel.jpg  used on input line 1941.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1155,7 +1149,7 @@ Overfull \vbox (126.1284pt too high) has occurred while \output is active []
  [84]
 File: media/grießbrei.JPG Graphic file (type jpg)
 <use media/grießbrei.JPG>
-Package pdftex.def Info: media/grießbrei.JPG  used on input line 2082.
+Package pdftex.def Info: media/grießbrei.JPG  used on input line 2088.
 (pdftex.def)             Requested size: 213.53944pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1166,17 +1160,17 @@ Overfull \vbox (87.88579pt too high) has occurred while \output is active []
  [86 <./media/grießbrei.JPG>] [87]
 File: media/karamell_fudge_v3.JPG Graphic file (type jpg)
 <use media/karamell_fudge_v3.JPG>
-Package pdftex.def Info: media/karamell_fudge_v3.JPG  used on input line 2170.
+Package pdftex.def Info: media/karamell_fudge_v3.JPG  used on input line 2176.
 (pdftex.def)             Requested size: 205.36517pt x 142.26378pt.
 
-Overfull \hbox (24.89467pt too wide) in paragraph at lines 2170--2170
+Overfull \hbox (24.89467pt too wide) in paragraph at lines 2176--2176
 []|[]|  
  []
 
-<media/karamell_fudge.JPG, id=818, 2200.22pt x 1282.7925pt>
+<media/karamell_fudge.JPG, id=823, 2200.22pt x 1282.7925pt>
 File: media/karamell_fudge.JPG Graphic file (type jpg)
 <use media/karamell_fudge.JPG>
-Package pdftex.def Info: media/karamell_fudge.JPG  used on input line 2175.
+Package pdftex.def Info: media/karamell_fudge.JPG  used on input line 2181.
 (pdftex.def)             Requested size: 224.06548pt x 130.63562pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1189,20 +1183,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Overfull \vbox (188.51305pt too high) has occurred while \output is active []
 
  [89 <./media/karamell_fudge_v3.JPG>]
-<media/popcorn.jpg, id=830, 4047.12pt x 3035.34pt>
+<media/popcorn.jpg, id=835, 4047.12pt x 3035.34pt>
 File: media/popcorn.jpg Graphic file (type jpg)
 <use media/popcorn.jpg>
-Package pdftex.def Info: media/popcorn.jpg  used on input line 2181.
+Package pdftex.def Info: media/popcorn.jpg  used on input line 2187.
 (pdftex.def)             Requested size: 227.56348pt x 170.71652pt.
  [90 <./media/karamell_fudge.JPG> <./media/popcorn.jpg>]
 File: media/gebrannte_mandeln.jpg Graphic file (type jpg)
 <use media/gebrannte_mandeln.jpg>
-Package pdftex.def Info: media/gebrannte_mandeln.jpg  used on input line 2229.
+Package pdftex.def Info: media/gebrannte_mandeln.jpg  used on input line 2235.
 (pdftex.def)             Requested size: 213.38936pt x 142.26378pt.
-<media/gebrannte_mandeln_schritt.jpg, id=838, 4047.12pt x 3035.34pt>
+<media/gebrannte_mandeln_schritt.jpg, id=843, 4047.12pt x 3035.34pt>
 File: media/gebrannte_mandeln_schritt.jpg Graphic file (type jpg)
 <use media/gebrannte_mandeln_schritt.jpg>
-Package pdftex.def Info: media/gebrannte_mandeln_schritt.jpg  used on input line 2233.
+Package pdftex.def Info: media/gebrannte_mandeln_schritt.jpg  used on input line 2239.
 (pdftex.def)             Requested size: 313.69029pt x 235.23642pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1217,7 +1211,7 @@ Overfull \vbox (62.6239pt too high) has occurred while \output is active []
  [92 <./media/gebrannte_mandeln.jpg>]
 File: media/orangenquark.JPG Graphic file (type jpg)
 <use media/orangenquark.JPG>
-Package pdftex.def Info: media/orangenquark.JPG  used on input line 2280.
+Package pdftex.def Info: media/orangenquark.JPG  used on input line 2286.
 (pdftex.def)             Requested size: 213.53944pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1229,10 +1223,10 @@ Overfull \vbox (1.34555pt too high) has occurred while \output is active []
 chapter 9.
 File: media/pizzabroetchen.JPG Graphic file (type jpg)
 <use media/pizzabroetchen.JPG>
-Package pdftex.def Info: media/pizzabroetchen.JPG  used on input line 2316.
+Package pdftex.def Info: media/pizzabroetchen.JPG  used on input line 2322.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (17.99352pt too wide) in paragraph at lines 2316--2316
+Overfull \hbox (17.99352pt too wide) in paragraph at lines 2322--2322
 []|[]|  
  []
 
@@ -1247,17 +1241,17 @@ chapter 10.
 ] [98] [99]
 File: media/hefeteig_reise.JPG Graphic file (type jpg)
 <use media/hefeteig_reise.JPG>
-Package pdftex.def Info: media/hefeteig_reise.JPG  used on input line 2425.
+Package pdftex.def Info: media/hefeteig_reise.JPG  used on input line 2431.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-<media/vollkorn_broetchen.jpg, id=901, 1456.9632pt x 969.3816pt>
+<media/vollkorn_broetchen.jpg, id=906, 1456.9632pt x 969.3816pt>
 File: media/vollkorn_broetchen.jpg Graphic file (type jpg)
 <use media/vollkorn_broetchen.jpg>
-Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 2432.
+Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 2438.
 (pdftex.def)             Requested size: 219.58662pt x 146.09616pt.
-<media/Fladenbrot.JPG, id=902, 4047.12pt x 3035.34pt>
+<media/Fladenbrot.JPG, id=907, 4047.12pt x 3035.34pt>
 File: media/Fladenbrot.JPG Graphic file (type jpg)
 <use media/Fladenbrot.JPG>
-Package pdftex.def Info: media/Fladenbrot.JPG  used on input line 2436.
+Package pdftex.def Info: media/Fladenbrot.JPG  used on input line 2442.
 (pdftex.def)             Requested size: 224.06548pt x 168.03262pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1272,7 +1266,7 @@ Overfull \vbox (177.8103pt too high) has occurred while \output is active []
  [101 <./media/hefeteig_reise.JPG>] [102 <./media/vollkorn_broetchen.jpg> <./media/Fladenbrot.JPG>] [103] [104]
 File: media/vollkorn_broetchen.jpg Graphic file (type jpg)
 <use media/vollkorn_broetchen.jpg>
-Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 2552.
+Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 2558.
 (pdftex.def)             Requested size: 213.79976pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1283,170 +1277,197 @@ Overfull \vbox (116.47125pt too high) has occurred while \output is active []
  [106]
 File: media/brioche_burger_bun_v2.jpg Graphic file (type jpg)
 <use media/brioche_burger_bun_v2.jpg>
-Package pdftex.def Info: media/brioche_burger_bun_v2.jpg  used on input line 2587.
+Package pdftex.def Info: media/brioche_burger_bun_v2.jpg  used on input line 2593.
 (pdftex.def)             Requested size: 199.17104pt x 142.26378pt.
  [107 <./media/brioche_burger_bun_v2.jpg>]
-<media/burger_broetchen.JPG, id=963, 2699.08376pt x 2024.56375pt>
+<media/burger_broetchen.JPG, id=968, 2699.08376pt x 2024.56375pt>
 File: media/burger_broetchen.JPG Graphic file (type jpg)
 <use media/burger_broetchen.JPG>
-Package pdftex.def Info: media/burger_broetchen.JPG  used on input line 2609.
+Package pdftex.def Info: media/burger_broetchen.JPG  used on input line 2615.
 (pdftex.def)             Requested size: 189.6553pt x 142.26378pt.
  [108 <./media/burger_broetchen.JPG>]
 File: media/fladenbrot_flach.JPG Graphic file (type jpg)
 <use media/fladenbrot_flach.JPG>
-Package pdftex.def Info: media/fladenbrot_flach.JPG  used on input line 2651.
+Package pdftex.def Info: media/fladenbrot_flach.JPG  used on input line 2657.
 (pdftex.def)             Requested size: 192.66855pt x 142.26378pt.
  [109 <./media/fladenbrot_flach.JPG>]
-<media/naan_brot.JPG, id=980, 4047.12pt x 3035.34pt>
+<media/naan_brot.JPG, id=985, 4047.12pt x 3035.34pt>
 File: media/naan_brot.JPG Graphic file (type jpg)
 <use media/naan_brot.JPG>
-Package pdftex.def Info: media/naan_brot.JPG  used on input line 2670.
+Package pdftex.def Info: media/naan_brot.JPG  used on input line 2676.
 (pdftex.def)             Requested size: 313.69029pt x 235.23642pt.
  [110 <./media/naan_brot.JPG>] [111]
 File: media/ruehrkuchen_2.JPG Graphic file (type jpg)
 <use media/ruehrkuchen_2.JPG>
-Package pdftex.def Info: media/ruehrkuchen_2.JPG  used on input line 2714.
+Package pdftex.def Info: media/ruehrkuchen_2.JPG  used on input line 2720.
 (pdftex.def)             Requested size: 213.38936pt x 142.26378pt.
- [112 <./media/ruehrkuchen_2.JPG>] [113] [114]
-File: media/kuerbisbrot.JPG Graphic file (type jpg)
-<use media/kuerbisbrot.JPG>
-Package pdftex.def Info: media/kuerbisbrot.JPG  used on input line 2831.
+ [112 <./media/ruehrkuchen_2.JPG>] [113]
+File: media/bananenbrot.jpg Graphic file (type jpg)
+<use media/bananenbrot.jpg>
+Package pdftex.def Info: media/bananenbrot.jpg  used on input line 2792.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115]
+ [114]
+Overfull \vbox (3.17241pt too high) has occurred while \output is active []
+
+ [115 <./media/bananenbrot.jpg>]
+File: media/kuerbisbrot.JPG Graphic file (type jpg)
+<use media/kuerbisbrot.JPG>
+Package pdftex.def Info: media/kuerbisbrot.JPG  used on input line 2837.
+(pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
 Overfull \vbox (29.65276pt too high) has occurred while \output is active []
 
- [116 <./media/kuerbisbrot.JPG>]
+ [117 <./media/kuerbisbrot.JPG>]
 File: media/pumpkin_pie.JPG Graphic file (type jpg)
 <use media/pumpkin_pie.JPG>
-Package pdftex.def Info: media/pumpkin_pie.JPG  used on input line 2871.
+Package pdftex.def Info: media/pumpkin_pie.JPG  used on input line 2877.
 (pdftex.def)             Requested size: 213.53944pt x 142.26378pt.
 
-Overfull \hbox (15.55386pt too wide) in paragraph at lines 2871--2871
+Overfull \hbox (15.55386pt too wide) in paragraph at lines 2877--2877
 []|[]|  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117]
+ [118]
 Overfull \vbox (37.68019pt too high) has occurred while \output is active []
 
- [118 <./media/pumpkin_pie.JPG>]
-<media/pumpkin_pie_crafting.png, id=1041, 751.80875pt x 374.39874pt>
+ [119 <./media/pumpkin_pie.JPG>]
+<media/pumpkin_pie_crafting.png, id=1051, 751.80875pt x 374.39874pt>
 File: media/pumpkin_pie_crafting.png Graphic file (type png)
 <use media/pumpkin_pie_crafting.png>
-Package pdftex.def Info: media/pumpkin_pie_crafting.png  used on input line 2892.
+Package pdftex.def Info: media/pumpkin_pie_crafting.png  used on input line 2898.
 (pdftex.def)             Requested size: 224.06548pt x 111.58353pt.
- [119 <./media/pumpkin_pie_crafting.png>]
+ [120 <./media/pumpkin_pie_crafting.png>]
 File: media/zupfkuche.JPG Graphic file (type jpg)
 <use media/zupfkuche.JPG>
-Package pdftex.def Info: media/zupfkuche.JPG  used on input line 2941.
+Package pdftex.def Info: media/zupfkuche.JPG  used on input line 2947.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120]
+ [121]
 Overfull \vbox (71.2155pt too high) has occurred while \output is active []
 
- [121 <./media/zupfkuche.JPG>]
+ [122 <./media/zupfkuche.JPG>]
 File: media/brownie.JPG Graphic file (type jpg)
 <use media/brownie.JPG>
-Package pdftex.def Info: media/brownie.JPG  used on input line 2978.
+Package pdftex.def Info: media/brownie.JPG  used on input line 2984.
 (pdftex.def)             Requested size: 217.43007pt x 142.26378pt.
- [122 <./media/brownie.JPG>] [123]
+ [123 <./media/brownie.JPG>] [124]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3003.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 3003.
+(hyperref)                removing `math shift' on input line 3009.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3003.
+(hyperref)                removing `\pi' on input line 3009.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3009.
 
 File: media/apple_pi.JPG Graphic file (type jpg)
 <use media/apple_pi.JPG>
-Package pdftex.def Info: media/apple_pi.JPG  used on input line 3044.
+Package pdftex.def Info: media/apple_pi.JPG  used on input line 3050.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [124]
+ [125]
 Overfull \vbox (31.89006pt too high) has occurred while \output is active []
 
- [125 <./media/apple_pi.JPG>] [126]
+ [126 <./media/apple_pi.JPG>] [127]
 File: media/hefezopf.jpg Graphic file (type jpg)
 <use media/hefezopf.jpg>
-Package pdftex.def Info: media/hefezopf.jpg  used on input line 3093.
+Package pdftex.def Info: media/hefezopf.jpg  used on input line 3099.
 (pdftex.def)             Requested size: 192.53906pt x 142.26378pt.
- [127 <./media/hefezopf.jpg>] [128]
+ [128 <./media/hefezopf.jpg>] [129]
 File: media/zimtschnecken.JPG Graphic file (type jpg)
 <use media/zimtschnecken.JPG>
-Package pdftex.def Info: media/zimtschnecken.JPG  used on input line 3167.
+Package pdftex.def Info: media/zimtschnecken.JPG  used on input line 3173.
 (pdftex.def)             Requested size: 170.68805pt x 128.0374pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129]
+ [130]
 Overfull \vbox (140.1341pt too high) has occurred while \output is active []
 
- [130 <./media/zimtschnecken.JPG>] [131]
-Overfull \hbox (50.40901pt too wide) in paragraph at lines 3246--3246
+ [131 <./media/zimtschnecken.JPG>] [132]
+Overfull \hbox (50.40901pt too wide) in paragraph at lines 3252--3252
 []  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132]
+ [133]
 Overfull \vbox (111.56773pt too high) has occurred while \output is active []
 
- [133]
+ [134]
 File: media/pflaumenkuchen_v2.jpg Graphic file (type jpg)
 <use media/pflaumenkuchen_v2.jpg>
-Package pdftex.def Info: media/pflaumenkuchen_v2.jpg  used on input line 3288.
+Package pdftex.def Info: media/pflaumenkuchen_v2.jpg  used on input line 3294.
 (pdftex.def)             Requested size: 221.89232pt x 142.26378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
+ [135]
 Overfull \vbox (7.97258pt too high) has occurred while \output is active []
 
- [135 <./media/pflaumenkuchen_v2.jpg>] [136]
+ [136 <./media/pflaumenkuchen_v2.jpg>] [137]
 File: media/schoko-nuss-creme-kuchen.jpg Graphic file (type jpg)
 <use media/schoko-nuss-creme-kuchen.jpg>
-Package pdftex.def Info: media/schoko-nuss-creme-kuchen.jpg  used on input line 3353.
+Package pdftex.def Info: media/schoko-nuss-creme-kuchen.jpg  used on input line 3359.
 (pdftex.def)             Requested size: 228.79994pt x 142.26378pt.
 
-Overfull \hbox (65.58359pt too wide) in paragraph at lines 3353--3353
+Overfull \hbox (65.58359pt too wide) in paragraph at lines 3359--3359
 []|[]|  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137]
+ [138]
 Overfull \vbox (62.10802pt too high) has occurred while \output is active []
 
- [138 <./media/schoko-nuss-creme-kuchen.jpg>]
+ [139 <./media/schoko-nuss-creme-kuchen.jpg>]
 Overfull \vbox (0.61467pt too high) has occurred while \output is active []
 
- [139] [140
+ [140]
+File: media/veganer_karottenkuchen.jpg Graphic file (type jpg)
+<use media/veganer_karottenkuchen.jpg>
+Package pdftex.def Info: media/veganer_karottenkuchen.jpg  used on input line 3441.
+(pdftex.def)             Requested size: 268.43979pt x 170.71652pt.
+
+Overfull \hbox (7.6973pt too wide) in paragraph at lines 3441--3441
+[]|[]|  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141]
+Overfull \vbox (111.56833pt too high) has occurred while \output is active []
+
+ [142 <./media/veganer_karottenkuchen.jpg>] [143] [144
 
 
 ]
 chapter 11.
-[141] [142
+[145] [146
 
 
 ]
 chapter 12.
-[143] [144
+[147] [148
 
 
 ]
@@ -1454,7 +1475,7 @@ chapter 13.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [145] [146] (./AZ-Rezeptbuch.aux)
+ [149] [150] (./AZ-Rezeptbuch.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1462,18 +1483,18 @@ Package rerunfilecheck Info: File `AZ-Rezeptbuch.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 40771 strings out of 478353
- 976442 string characters out of 5854636
- 1466218 words of memory out of 5000000
- 57715 multiletter control sequences out of 15000+600000
+ 40801 strings out of 478353
+ 976999 string characters out of 5854636
+ 1466280 words of memory out of 5000000
+ 57729 multiletter control sequences out of 15000+600000
  418449 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,106p,10659b,977s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on AZ-Rezeptbuch.pdf (152 pages, 16557885 bytes).
+Output written on AZ-Rezeptbuch.pdf (156 pages, 17323026 bytes).
 PDF statistics:
- 1693 PDF objects out of 1728 (max. 8388607)
- 1400 compressed objects within 14 object streams
- 543 named destinations out of 1000 (max. 500000)
- 904 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1728 PDF objects out of 1728 (max. 8388607)
+ 1428 compressed objects within 15 object streams
+ 557 named destinations out of 1000 (max. 500000)
+ 922 words of extra memory for PDF output out of 10000 (max. 10000000)
 
