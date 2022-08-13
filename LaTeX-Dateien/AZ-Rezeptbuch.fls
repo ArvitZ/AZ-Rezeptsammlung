@@ -1,7 +1,7 @@
-PWD /home/arvit/Dokumente/AZ-OneDrive/AZ-Open/repos-OneDrive/AZ-Rezeptsammlung/LaTeX-Dateien
+PWD /home/arvit/Dokumente/AZ-Seafile/Seafile/misc/REPOS/AZ-Rezeptsammlung/LaTeX-Dateien
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/arvit/Dokumente/AZ-OneDrive/AZ-Open/repos-OneDrive/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.tex
+INPUT /home/arvit/Dokumente/AZ-Seafile/Seafile/misc/REPOS/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.tex
 OUTPUT AZ-Rezeptbuch.log
 INPUT /usr/share/texmf-dist/tex/latex/koma-script/scrbook.cls
 INPUT /usr/share/texmf-dist/tex/latex/koma-script/scrbook.cls
@@ -1170,10 +1170,10 @@ INPUT ./AZ-Rezeptbuch.tdo
 INPUT AZ-Rezeptbuch.tdo
 INPUT AZ-Rezeptbuch.tdo
 OUTPUT AZ-Rezeptbuch.tdo
+INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecsx1728.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT ./media/Falafel.JPG
 INPUT ./media/Falafel.JPG
 INPUT media/Falafel.JPG
@@ -1423,6 +1423,10 @@ INPUT ./media/spinat_pfannkuchen.JPG
 INPUT media/spinat_pfannkuchen.JPG
 INPUT ./media/spinat_pfannkuchen.JPG
 INPUT ./media/spinat_pfannkuchen.JPG
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT ./media/dampfnudel.jpg
 INPUT ./media/dampfnudel.jpg
 INPUT media/dampfnudel.jpg
@@ -1587,10 +1591,6 @@ INPUT ./media/naan_brot.JPG
 INPUT media/naan_brot.JPG
 INPUT ./media/naan_brot.JPG
 INPUT ./media/naan_brot.JPG
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT ./media/ruehrkuchen_2.JPG
 INPUT ./media/ruehrkuchen_2.JPG
 INPUT media/ruehrkuchen_2.JPG
