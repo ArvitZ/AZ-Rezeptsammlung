@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.2)  2 OCT 2024 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.2)  2 OCT 2024 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,8 +7,8 @@ entering extended mode
 (/home/arvit/repos/AZ-Rezeptsammlung/LaTeX-Dateien/AZ-Rezeptbuch.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-(/usr/share/texmf-dist/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2023/07/07 v3.41 KOMA-Script document class (book)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2023/07/07 v3.41 KOMA-Script document class (article)
 (/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
  (/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
@@ -32,14 +32,14 @@ Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 135.
-Package scrbook Info: You've used standard option `12pt'.
-(scrbook)             This is correct!
-(scrbook)             Internally I'm using `fontsize=12pt'.
-(scrbook)             If you'd like to set the option with \KOMAoptions,
-(scrbook)             you'd have to use `fontsize=12pt' there
-(scrbook)             instead of `12pt', too.
-Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input line 2691.
+(tocbasic)             for `toc' on input line 133.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 2441.
  (/usr/share/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
 File: scrsize12pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (12pt)
 ) (/usr/share/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -62,8 +62,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 448.13095pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 27.31467pt
-(typearea)              \oddsidemargin  = -22.47766pt
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 635.5pt
 (typearea)              \topmargin      = -41.72441pt
@@ -75,57 +75,53 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              on input line 1799.
 )
 \c@part=\count189
-\c@chapter=\count190
-\c@section=\count191
-\c@subsection=\count192
-\c@subsubsection=\count193
-\c@paragraph=\count194
-\c@subparagraph=\count195
-\scr@dte@chapter@maxnumwidth=\skip54
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\chapter on input line 5990.
-\scr@dte@section@maxnumwidth=\skip55
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\section on input line 6001.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\section on input line 6001.
-\scr@dte@part@maxnumwidth=\skip56
-Class scrbook Info: using compatibility default `afterindent=true'
-(scrbook)           for `\part on input line 6010.
-\scr@dte@subsection@maxnumwidth=\skip57
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subsection on input line 6020.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subsection on input line 6020.
-\scr@dte@subsubsection@maxnumwidth=\skip58
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subsubsection on input line 6030.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subsubsection on input line 6030.
-\scr@dte@paragraph@maxnumwidth=\skip59
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\paragraph on input line 6041.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\paragraph on input line 6041.
-\scr@dte@subparagraph@maxnumwidth=\skip60
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subparagraph on input line 6051.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subparagraph on input line 6051.
-\abovecaptionskip=\skip61
-\belowcaptionskip=\skip62
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\scr@dte@section@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 5082.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 5082.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 5090.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 5100.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 5100.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 5110.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 5110.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 5121.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 5121.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 5131.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 5131.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
 \c@pti@nb@sid@b@x=\box52
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 7242.
-\scr@dte@figure@maxnumwidth=\skip63
-\c@figure=\count196
+(tocbasic)             for `lof' on input line 6309.
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count195
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 7259.
-\scr@dte@table@maxnumwidth=\skip64
-\c@table=\count197
-Class scrbook Info: Redefining `\numberline' on input line 7430.
+(tocbasic)             for `lot' on input line 6325.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count196
+Class scrartcl Info: Redefining `\numberline' on input line 6495.
 \bibindent=\dimen140
 ) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -135,12 +131,12 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/02/07 v24.2 The Babel package
-\babel@savecnt=\count198
+\babel@savecnt=\count197
 \U@D=\dimen141
 \l@unhyphenated=\language10
  (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count199
+\bbl@dirlevel=\count198
  (/usr/share/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2024/01/19 v2.14 German support for babel (post-1996 orthography)
  (/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
@@ -166,7 +162,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@width=\dimen143
 ) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip65
+\@mathmargin=\skip64
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -181,14 +177,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count266
+\inf@bad=\count199
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count267
-\leftroot@=\count268
+\uproot@=\count266
+\leftroot@=\count267
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count269
-\DOTSCASE@=\count270
+\classnum@=\count268
+\DOTSCASE@=\count269
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -201,20 +197,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen146
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count271
+\macc@depth=\count270
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count272
+\c@MaxMatrixCols=\count271
 \dotsspace@=\muskip16
-\c@parentequation=\count273
-\dspbrk@lvl=\count274
+\c@parentequation=\count272
+\dspbrk@lvl=\count273
 \tag@help=\toks21
-\row@=\count275
-\column@=\count276
-\maxfields@=\count277
+\row@=\count274
+\column@=\count275
+\maxfields@=\count276
 \andhelp@=\toks22
 \eqnshift@=\dimen147
 \alignsep@=\dimen148
@@ -223,32 +219,32 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen151
 \lineht@=\dimen152
 \@envbody=\toks23
-\multlinegap=\skip66
-\multlinetaggap=\skip67
+\multlinegap=\skip65
+\multlinetaggap=\skip66
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count278
-\l__siunitx_number_exponent_fixed_int=\count279
-\l__siunitx_number_min_decimal_int=\count280
-\l__siunitx_number_min_integer_int=\count281
-\l__siunitx_number_round_precision_int=\count282
-\l__siunitx_number_lower_threshold_int=\count283
-\l__siunitx_number_upper_threshold_int=\count284
-\l__siunitx_number_group_first_int=\count285
-\l__siunitx_number_group_size_int=\count286
-\l__siunitx_number_group_minimum_int=\count287
+\l__siunitx_number_uncert_offset_int=\count277
+\l__siunitx_number_exponent_fixed_int=\count278
+\l__siunitx_number_min_decimal_int=\count279
+\l__siunitx_number_min_integer_int=\count280
+\l__siunitx_number_round_precision_int=\count281
+\l__siunitx_number_lower_threshold_int=\count282
+\l__siunitx_number_upper_threshold_int=\count283
+\l__siunitx_number_group_first_int=\count284
+\l__siunitx_number_group_size_int=\count285
+\l__siunitx_number_group_minimum_int=\count286
 \l__siunitx_angle_tmp_dim=\dimen153
 \l__siunitx_angle_marker_box=\box55
 \l__siunitx_angle_unit_box=\box56
-\l__siunitx_compound_count_int=\count288
+\l__siunitx_compound_count_int=\count287
  (/usr/share/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
  (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count289
+\etb@tempcnta=\count288
 ) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -272,9 +268,9 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_table_after_box=\box62
 \l__siunitx_table_before_dim=\dimen156
 \l__siunitx_table_carry_dim=\dimen157
-\l__siunitx_unit_tmp_int=\count290
-\l__siunitx_unit_position_int=\count291
-\l__siunitx_unit_total_int=\count292
+\l__siunitx_unit_tmp_int=\count289
+\l__siunitx_unit_position_int=\count290
+\l__siunitx_unit_total_int=\count291
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             this release.
@@ -287,8 +283,8 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \ar@mcellbox=\box63
 \extrarowheight=\dimen159
 \NC@list=\toks25
-\extratabsurround=\skip68
-\backup@length=\skip69
+\extratabsurround=\skip67
+\backup@length=\skip68
 \ar@cellbox=\box64
 )) (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
@@ -297,7 +293,7 @@ Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen162
 \TX@target=\dimen163
 \TX@delta=\dimen164
-\TX@cols=\count293
+\TX@cols=\count292
 \TX@ftn=\toks26
 ) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks27
@@ -329,14 +325,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen176
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count294
-\c@pgf@countb=\count295
-\c@pgf@countc=\count296
-\c@pgf@countd=\count297
+\c@pgf@counta=\count293
+\c@pgf@countb=\count294
+\c@pgf@countc=\count295
+\c@pgf@countd=\count296
 \t@pgf@toka=\toks31
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count298
+\pgf@sys@id@count=\count297
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -347,8 +343,8 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count299
-\pgfsyssoftpath@bigbuffer@items=\count300
+\pgfsyssoftpath@smallbuffer@items=\count298
+\pgfsyssoftpath@bigbuffer@items=\count299
 ) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -371,13 +367,13 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen177
-\pgfmath@count=\count301
+\pgfmath@count=\count300
 \pgfmath@box=\box66
 \pgfmath@toks=\toks34
 \pgfmath@stack@operand=\toks35
 \pgfmath@stack@operation=\toks36
 ) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count302
+\c@pgfmathroundto@lastzeros=\count301
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen178
@@ -407,7 +403,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box67
 \pgf@hbox=\box68
 \pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count303
+\pgf@picture@serial@count=\count302
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen196
@@ -428,8 +424,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen257
-\pgf@sys@shading@range@num=\count304
-\pgf@shadingcount=\count305
+\pgf@sys@shading@range@num=\count303
+\pgf@shadingcount=\count304
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -464,7 +460,7 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count306
+\pgf@plot@mark@count=\count305
 \pgfplotmarksize=\dimen262
 )
 \tikz@lastx=\dimen263
@@ -479,17 +475,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box73
 \tikz@tempbox=\box74
 \tikz@tempbox@bg=\box75
-\tikztreelevel=\count307
-\tikznumberofchildren=\count308
-\tikznumberofcurrentchild=\count309
-\tikz@fig@count=\count310
+\tikztreelevel=\count306
+\tikznumberofchildren=\count307
+\tikznumberofcurrentchild=\count308
+\tikz@fig@count=\count309
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count311
-\pgfmatrixcurrentcolumn=\count312
-\pgf@matrix@numberofcolumns=\count313
+\pgfmatrixcurrentrow=\count310
+\pgfmatrixcurrentcolumn=\count311
+\pgf@matrix@numberofcolumns=\count312
 )
-\tikz@expandcount=\count314
+\tikz@expandcount=\count313
  (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -499,33 +495,33 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@tokb=\toks40
 \t@pgfplots@tokc=\toks41
 \pgfplots@tmpa=\dimen271
-\c@pgfplots@coordindex=\count315
-\c@pgfplots@scanlineindex=\count316
+\c@pgfplots@coordindex=\count314
+\c@pgfplots@scanlineindex=\count315
  (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks42
 \t@pgf@tokb=\toks43
 \t@pgf@tokc=\toks44
 (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count317
+\c@pgfplotsarray@tmp=\count316
 ) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count318
+\c@pgfplotstable@counta=\count317
 \t@pgfplotstable@a=\toks45
 ) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count319
+\c@pgfplotslibrarysurf@no=\count318
  (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen272
 \pgfdecoratedremainingdistance=\dimen273
 \pgfdecoratedinputsegmentcompleteddistance=\dimen274
 \pgfdecoratedinputsegmentremainingdistance=\dimen275
 \pgf@decorate@distancetomove=\dimen276
-\pgf@decorate@repeatstate=\count320
+\pgf@decorate@repeatstate=\count319
 \pgfdecorationsegmentamplitude=\dimen277
 \pgfdecorationsegmentlength=\dimen278
 )
 \tikz@lib@dec@box=\box76
 ) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count321
+\pgfplots@numplots=\count320
 \pgfplots@xmin@reg=\dimen279
 \pgfplots@xmax@reg=\dimen280
 \pgfplots@ymin@reg=\dimen281
@@ -549,18 +545,18 @@ Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \csv@file=\read4
-\c@csvinputline=\count322
-\c@csvrow=\count323
-\c@csvcol=\count324
+\c@csvinputline=\count321
+\c@csvrow=\count322
+\c@csvcol=\count323
 \csv@out=\write4
 ) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip70
+\labelindent=\skip69
 \enit@outerparindent=\dimen285
 \enit@toks=\toks46
 \enit@inbox=\box77
-\enit@count@id=\count325
-\enitdp@description=\count326
+\enit@count@id=\count324
+\enitdp@description=\count325
 ) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
  (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
@@ -582,11 +578,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count327
+\c@section@level=\count326
 )
 \@linkdim=\dimen286
-\Hy@linkcounter=\count328
-\Hy@pagecounter=\count329
+\Hy@linkcounter=\count327
+\Hy@pagecounter=\count328
  (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -594,7 +590,7 @@ Now handling font encoding PD1 ...
 ) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count330
+\Hy@SavedSpaceFactor=\count329
  (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -607,7 +603,7 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count331
+\c@Hy@tempcnt=\count330
  (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -619,7 +615,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count332
+\Fld@menulength=\count331
 \Field@Width=\dimen288
 \Fld@charsize=\dimen289
 Package hyperref Info: Hyper figures OFF on input line 6063.
@@ -633,9 +629,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count333
-\c@Item=\count334
-\c@Hfootnote=\count335
+\Hy@abspage=\count332
+\c@Item=\count333
+\c@Hfootnote=\count334
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -644,8 +640,8 @@ File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count336
-\c@bookmark@seq@number=\count337
+\Fld@listcount=\count335
+\c@bookmark@seq@number=\count336
  (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -653,7 +649,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip71
+\Hy@SectionHShift=\skip70
 ) (/usr/share/texmf-dist/tex/latex/xargs/xargs.sty
 Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
  (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -662,10 +658,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks47
 \XKV@tempa@toks=\toks48
 )
-\XKV@depth=\count338
+\XKV@depth=\count337
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\xargs@max=\count339
+\xargs@max=\count338
 \xargs@toksa=\toks49
 \xargs@toksb=\toks50
 ) (/usr/share/texmf-dist/tex/latex/todonotes/todonotes.sty
@@ -675,56 +671,81 @@ Package: todonotes 2024/01/05
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count340
-\calc@Bcount=\count341
+\calc@Acount=\count339
+\calc@Bcount=\count340
 \calc@Adimen=\dimen290
 \calc@Bdimen=\dimen291
-\calc@Askip=\skip72
-\calc@Bskip=\skip73
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count342
-\calc@Cskip=\skip74
+\calc@Ccount=\count341
+\calc@Cskip=\skip73
 )
-\c@@todonotes@numberoftodonotes=\count343
+\c@@todonotes@numberoftodonotes=\count342
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count343
+\Gm@cntv=\count344
+\c@Gm@tempcnt=\count345
+\Gm@bindingoffset=\dimen292
+\Gm@wd@mp=\dimen293
+\Gm@odd@mp=\dimen294
+\Gm@even@mp=\dimen295
+\Gm@layoutwidth=\dimen296
+\Gm@layoutheight=\dimen297
+\Gm@layouthoffset=\dimen298
+\Gm@layoutvoffset=\dimen299
+\Gm@dimlist=\toks51
+) (/usr/share/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2023/07/07 v3.41 KOMA-Script package (end user interface for scrlayer)
+ (/usr/share/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2023/07/07 v3.41 KOMA-Script package (defining layers and page styles)
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2183.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1106.
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count344
+\l__color_backend_stack_int=\count346
 \l__pdf_internal_box=\box78
 ) (./AZ-Rezeptbuch.aux)
 \openout1 = `AZ-Rezeptbuch.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count345
-\scratchdimen=\dimen292
+\scratchcounter=\count347
+\scratchdimen=\dimen300
 \scratchbox=\box79
-\nofMPsegments=\count346
-\nofMParguments=\count347
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count348
-\MPscratchDim=\dimen293
-\MPnumerator=\count349
-\makeMPintoPDFobject=\count350
-\everyMPtoPDFconversion=\toks52
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen301
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks53
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -733,819 +754,629 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 58.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 63.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 63.
 (./AZ-Rezeptbuch.out) (./AZ-Rezeptbuch.out)
 \@outlinefile=\write5
 \openout5 = `AZ-Rezeptbuch.out'.
 
-Class scrbook Info: loading recommended package `bookmark'.
-(scrbook)           Using `bookmark' together with `hyperref' is recommended,
-(scrbook)           because of handling of possible bookmark level gaps.
-(scrbook)           You can avoid loading `bookmark' with KOMA-Script option
-(scrbook)           `bookmarkpackage=false' before \begin{document} and
-(scrbook)           you can avoid this message adding:
-(scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 58.
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message adding:
+(scrartcl)             \usepackage{bookmark}
+(scrartcl)           before \begin{document} on input line 63.
  (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count351
+\BKM@id=\count353
 ))
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 62.
- (/usr/share/texmf-dist/tex/latex/base/t1cmss.fd
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 63.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(42.67912pt, 700.96107pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=700.96107pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-69.46587pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 69.
+(/usr/share/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [1
 
 
-
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-
-Overfull \hbox (14.81427pt too wide) in paragraph at lines 69--70
-\T1/cmr/m/it/12 Am bes-ten wer-den die Vor-schl�-ge gleich als com-mits zum oben ge-nann-ten GitHub-Repository
- []
-
-[2] (./AZ-Rezeptbuch.toc [3
-
-
-]
-Overfull \hbox (2.03697pt too wide) detected at line 59
- []\T1/cmss/bx/n/12 103
- []
-
-
-Overfull \hbox (2.03697pt too wide) detected at line 61
- []\T1/cmss/bx/n/12 105
- []
-
-[4]
+[2] (./AZ-Rezeptbuch.toc [3]
 Overfull \hbox (2.03697pt too wide) detected at line 85
- []\T1/cmss/bx/n/12 155
+ []\T1/cmss/bx/n/12 136
  []
 
 
 Overfull \hbox (2.03697pt too wide) detected at line 86
- []\T1/cmss/bx/n/12 157
+ []\T1/cmss/bx/n/12 136
  []
 
 
 Overfull \hbox (2.03697pt too wide) detected at line 87
- []\T1/cmss/bx/n/12 159
+ []\T1/cmss/bx/n/12 136
  []
 
 )
 \tf@toc=\write6
 \openout6 = `AZ-Rezeptbuch.toc'.
 
- [5] [6
-
-
-] (./AZ-Rezeptbuch.tdo)
-\tf@tdo=\write7
-\openout7 = `AZ-Rezeptbuch.tdo'.
-
- [7] [8
-
-
-]
-chapter 1.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+ [4] [5]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 
+l.123 
        [1{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 	\newpage
+l.132 	\newpage
                 [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.168 \newpage
+l.176 \newpage
                [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \chapter
-              {Grundnahrungsmittel} [4
-
-
-]
-chapter 2.
-
+l.185 \newpage
+               [4]
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 \newpage
-               [5]
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.218 	\newpage
-                [6]
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.260 	\newpage
-                [7]
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.301 	\newpage
-                [8]
-<media/Falafel.JPG, id=271, 4047.12pt x 3035.34pt>
+l.226 	\newpage
+                [5] [6] [7]
+<media/Falafel.JPG, id=255, 4047.12pt x 3035.34pt>
 File: media/Falafel.JPG Graphic file (type jpg)
 <use media/Falafel.JPG>
-Package pdftex.def Info: media/Falafel.JPG  used on input line 346.
-(pdftex.def)             Requested size: 448.13095pt x 336.06526pt.
- [9] [10 <./media/Falafel.JPG>] [11] [12
+Package pdftex.def Info: media/Falafel.JPG  used on input line 354.
+(pdftex.def)             Requested size: 418.25368pt x 313.64856pt.
+ [8]
+Overfull \hbox (20.80948pt too wide) in paragraph at lines 394--394
+[]|[]|  
+ []
 
-
-]
-chapter 3.
+[9 <./media/Falafel.JPG>] [10]
 File: media/Lauchgemüse.JPG Graphic file (type jpg)
 <use media/Lauchgemüse.JPG>
-Package pdftex.def Info: media/Lauchgemüse.JPG  used on input line 433.
+Package pdftex.def Info: media/Lauchgemüse.JPG  used on input line 441.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
+ [11]
+Overfull \vbox (53.1406pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
-Overfull \vbox (142.501pt too high) has occurred while \output is active []
-
- [14 <./media/Lauchgemüse.JPG>] [15]
+ [12 <./media/Lauchgemüse.JPG>] [13]
 File: media/seitan.JPG Graphic file (type jpg)
 <use media/seitan.JPG>
-Package pdftex.def Info: media/seitan.JPG  used on input line 516.
+Package pdftex.def Info: media/seitan.JPG  used on input line 524.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
+ [14]
+Overfull \vbox (65.826pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Overfull \vbox (135.63866pt too high) has occurred while \output is active []
-
- [17 <./media/seitan.JPG>] [18]
+ [15 <./media/seitan.JPG>] [16]
 File: media/Falafel.JPG Graphic file (type jpg)
 <use media/Falafel.JPG>
-Package pdftex.def Info: media/Falafel.JPG  used on input line 597.
+Package pdftex.def Info: media/Falafel.JPG  used on input line 605.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
+ [17]
+Overfull \vbox (121.74063pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-Overfull \vbox (177.05328pt too high) has occurred while \output is active []
-
- [20]
+ [18]
 File: media/zucchini_bratling.JPG Graphic file (type jpg)
 <use media/zucchini_bratling.JPG>
-Package pdftex.def Info: media/zucchini_bratling.JPG  used on input line 635.
+Package pdftex.def Info: media/zucchini_bratling.JPG  used on input line 643.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (25.11395pt too wide) in paragraph at lines 635--635
+Overfull \hbox (54.99123pt too wide) in paragraph at lines 643--643
 []|[]|  
  []
 
-[21 <./media/zucchini_bratling.JPG>] [22]
+[19 <./media/zucchini_bratling.JPG>] [20]
 File: media/kartoffelknoedel.jpg Graphic file (type jpg)
 <use media/kartoffelknoedel.jpg>
-Package pdftex.def Info: media/kartoffelknoedel.jpg  used on input line 683.
+Package pdftex.def Info: media/kartoffelknoedel.jpg  used on input line 691.
 (pdftex.def)             Requested size: 229.30392pt x 142.26378pt.
- [23 <./media/kartoffelknoedel.jpg>] [24] [25] [26
 
+Overfull \hbox (24.73132pt too wide) in paragraph at lines 691--691
+[]|[]|  
+ []
 
-]
-chapter 4.
+[21 <./media/kartoffelknoedel.jpg>] [22]
 File: media/bechamelsauce.png Graphic file (type png)
 <use media/bechamelsauce.png>
-Package pdftex.def Info: media/bechamelsauce.png  used on input line 751.
+Package pdftex.def Info: media/bechamelsauce.png  used on input line 759.
 (pdftex.def)             Requested size: 189.48401pt x 142.26378pt.
+ [23]
+Overfull \vbox (163.90024pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
-Overfull \vbox (202.84714pt too high) has occurred while \output is active []
-
- [28 <./media/bechamelsauce.png>]
-Overfull \hbox (14.53458pt too wide) in paragraph at lines 799--799
+ [24 <./media/bechamelsauce.png>]
+Overfull \hbox (44.41185pt too wide) in paragraph at lines 807--807
 []|[]|  
  []
 
-[29]
+[25]
 File: media/pesto_nudeln.JPG Graphic file (type jpg)
 <use media/pesto_nudeln.JPG>
-Package pdftex.def Info: media/pesto_nudeln.JPG  used on input line 842.
+Package pdftex.def Info: media/pesto_nudeln.JPG  used on input line 851.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-Overfull \vbox (35.34387pt too high) has occurred while \output is active []
-
- [31 <./media/pesto_nudeln.JPG>]
-Overfull \hbox (55.1995pt too wide) in paragraph at lines 882--882
+ [26 <./media/pesto_nudeln.JPG>]
+Overfull \hbox (85.07677pt too wide) in paragraph at lines 891--891
 []|[]|  
  []
 
-[32]
-chapter 5.
-[33
-
-
-] [34
-
-
-]
-chapter 6.
-[35] [36]
-Overfull \hbox (32.42917pt too wide) in paragraph at lines 933--933
+[27] [28] [29]
+Overfull \hbox (62.30644pt too wide) in paragraph at lines 942--942
 []|[]|  
  []
 
-[37] [38]
+[30] [31]
 File: media/frikasse.jpg Graphic file (type jpg)
 <use media/frikasse.jpg>
-Package pdftex.def Info: media/frikasse.jpg  used on input line 991.
+Package pdftex.def Info: media/frikasse.jpg  used on input line 1000.
 (pdftex.def)             Requested size: 213.68942pt x 142.26378pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (17.09358pt too wide) in paragraph at lines 1000--1000
+[]|[]|  
+ []
 
- [39]
-Overfull \vbox (2.84853pt too high) has occurred while \output is active []
+[32 <./media/frikasse.jpg>] [33] [34] [35]
+Overfull \vbox (165.66438pt too high) has occurred while \output is active []
 
- [40 <./media/frikasse.jpg>] [41] [42]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-Overfull \vbox (231.58568pt too high) has occurred while \output is active []
-
- [44]
+ [36]
 File: media/zwiebelsuppe.jpg Graphic file (type jpg)
 <use media/zwiebelsuppe.jpg>
-Package pdftex.def Info: media/zwiebelsuppe.jpg  used on input line 1099.
+Package pdftex.def Info: media/zwiebelsuppe.jpg  used on input line 1108.
 (pdftex.def)             Requested size: 213.38936pt x 142.26378pt.
- [45 <./media/zwiebelsuppe.jpg>] [46]
+ [37 <./media/zwiebelsuppe.jpg>] [38]
 File: media/linseneintopf.jpg Graphic file (type jpg)
 <use media/linseneintopf.jpg>
-Package pdftex.def Info: media/linseneintopf.jpg  used on input line 1157.
+Package pdftex.def Info: media/linseneintopf.jpg  used on input line 1166.
 (pdftex.def)             Requested size: 213.68942pt x 142.26378pt.
- [47 <./media/linseneintopf.jpg>] [48]
+ [39 <./media/linseneintopf.jpg>] [40]
 File: media/kartoffelpuffer.jpg Graphic file (type jpg)
 <use media/kartoffelpuffer.jpg>
-Package pdftex.def Info: media/kartoffelpuffer.jpg  used on input line 1208.
+Package pdftex.def Info: media/kartoffelpuffer.jpg  used on input line 1217.
 (pdftex.def)             Requested size: 189.49522pt x 142.26378pt.
- [49 <./media/kartoffelpuffer.jpg>] [50]
+ [41 <./media/kartoffelpuffer.jpg>] [42]
 File: media/aloo_masala.JPG Graphic file (type jpg)
 <use media/aloo_masala.JPG>
-Package pdftex.def Info: media/aloo_masala.JPG  used on input line 1273.
+Package pdftex.def Info: media/aloo_masala.JPG  used on input line 1282.
 (pdftex.def)             Requested size: 191.50485pt x 142.26378pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-Overfull \vbox (126.82043pt too high) has occurred while \output is active []
-
- [52 <./media/aloo_masala.JPG>] [53]
-Overfull \hbox (55.89801pt too wide) in paragraph at lines 1345--1345
+Overfull \hbox (8.35693pt too wide) in paragraph at lines 1282--1282
 []|[]|  
  []
 
+[43]
+Overfull \vbox (53.04756pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54]
-Overfull \vbox (56.32596pt too high) has occurred while \output is active []
-
- [55]
-Overfull \hbox (55.89801pt too wide) in paragraph at lines 1399--1399
+ [44 <./media/aloo_masala.JPG>] [45]
+Overfull \hbox (85.77528pt too wide) in paragraph at lines 1354--1354
 []|[]|  
  []
 
-[56] [57]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[46]
+Overfull \vbox (48.40466pt too high) has occurred while \output is active []
 
- [58]
-Overfull \vbox (11.23227pt too high) has occurred while \output is active []
+ [47]
+Overfull \hbox (85.77528pt too wide) in paragraph at lines 1408--1408
+[]|[]|  
+ []
 
- [59] [60]
+[48] [49]
+Overfull \hbox (16.46048pt too wide) in paragraph at lines 1503--1503
+[]|[]|  
+ []
+
+[50] [51]
 File: media/pita_roh.jpg Graphic file (type jpg)
 <use media/pita_roh.jpg>
-Package pdftex.def Info: media/pita_roh.jpg  used on input line 1576.
+Package pdftex.def Info: media/pita_roh.jpg  used on input line 1585.
 (pdftex.def)             Requested size: 197.58835pt x 142.26378pt.
+ [52]
+Overfull \vbox (116.42648pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61]
-Overfull \vbox (187.80365pt too high) has occurred while \output is active []
-
- [62 <./media/pita_roh.jpg>]
-<media/pita_zubereitung.jpg, id=642, 1341.3312pt x 894.2208pt>
+ [53 <./media/pita_roh.jpg>]
+<media/pita_zubereitung.jpg, id=593, 1341.3312pt x 894.2208pt>
 File: media/pita_zubereitung.jpg Graphic file (type jpg)
 <use media/pita_zubereitung.jpg>
-Package pdftex.def Info: media/pita_zubereitung.jpg  used on input line 1598.
-(pdftex.def)             Requested size: 313.69029pt x 209.11856pt.
+Package pdftex.def Info: media/pita_zubereitung.jpg  used on input line 1607.
+(pdftex.def)             Requested size: 292.77629pt x 195.17369pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63]
+[54]
 File: media/pizza.JPG Graphic file (type jpg)
 <use media/pizza.JPG>
-Package pdftex.def Info: media/pizza.JPG  used on input line 1647.
+Package pdftex.def Info: media/pizza.JPG  used on input line 1656.
 (pdftex.def)             Requested size: 219.95657pt x 142.26378pt.
+ [55 <./media/pita_zubereitung.jpg>]
+Overfull \vbox (108.81146pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64 <./media/pita_zubereitung.jpg>]
-Overfull \vbox (150.35727pt too high) has occurred while \output is active []
-
- [65 <./media/pizza.JPG>] [66]
+ [56 <./media/pizza.JPG>] [57]
 File: media/lasagne.JPG Graphic file (type jpg)
 <use media/lasagne.JPG>
-Package pdftex.def Info: media/lasagne.JPG  used on input line 1698.
+Package pdftex.def Info: media/lasagne.JPG  used on input line 1707.
 (pdftex.def)             Requested size: 238.06166pt x 142.26378pt.
- [67 <./media/lasagne.JPG>]
+ [58 <./media/lasagne.JPG>]
 
-LaTeX Warning: Reference `' on page 68 undefined on input line 1714.
+LaTeX Warning: Reference `' on page 59 undefined on input line 1723.
 
-[68]
+[59]
 File: media/burger.JPG Graphic file (type jpg)
 <use media/burger.JPG>
-Package pdftex.def Info: media/burger.JPG  used on input line 1747.
+Package pdftex.def Info: media/burger.JPG  used on input line 1756.
 (pdftex.def)             Requested size: 189.73767pt x 142.26378pt.
 File: media/burger_v2.JPG Graphic file (type jpg)
 <use media/burger_v2.JPG>
-Package pdftex.def Info: media/burger_v2.JPG  used on input line 1747.
+Package pdftex.def Info: media/burger_v2.JPG  used on input line 1756.
 (pdftex.def)             Requested size: 189.26657pt x 142.26378pt.
 
-Overfull \hbox (71.58029pt too wide) in paragraph at lines 1747--1747
+Overfull \hbox (101.45757pt too wide) in paragraph at lines 1756--1756
 []|[]|  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [69]
-Overfull \vbox (23.19153pt too high) has occurred while \output is active []
-
- [70 <./media/burger.JPG> <./media/burger_v2.JPG>] [71]
+[60 <./media/burger.JPG> <./media/burger_v2.JPG>] [61]
 File: media/bratnudeln.jpg Graphic file (type jpg)
 <use media/bratnudeln.jpg>
-Package pdftex.def Info: media/bratnudeln.jpg  used on input line 1809.
+Package pdftex.def Info: media/bratnudeln.jpg  used on input line 1818.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (20.66983pt too wide) in paragraph at lines 1809--1809
+Overfull \hbox (50.5471pt too wide) in paragraph at lines 1818--1818
 []|[]|  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72]
-Overfull \vbox (48.22183pt too high) has occurred while \output is active []
-
- [73 <./media/bratnudeln.jpg>] [74]
+[62 <./media/bratnudeln.jpg>] [63]
 File: media/bratreis.jpg Graphic file (type jpg)
 <use media/bratreis.jpg>
-Package pdftex.def Info: media/bratreis.jpg  used on input line 1874.
+Package pdftex.def Info: media/bratreis.jpg  used on input line 1883.
 (pdftex.def)             Requested size: 207.22081pt x 142.26378pt.
 
-Overfull \hbox (389.90443pt too wide) in paragraph at lines 1874--1874
+Overfull \hbox (419.78171pt too wide) in paragraph at lines 1883--1883
 []|[]|  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [75]
-Overfull \vbox (34.41313pt too high) has occurred while \output is active []
-
- [76 <./media/bratreis.jpg>]
-chapter 7.
-[77
-
-
-] [78] [79] [80
-
-
-]
-chapter 8.
-[81]
+[64 <./media/bratreis.jpg>] [65] [66] [67] [68]
 File: media/pfannkuchen.jpg Graphic file (type jpg)
 <use media/pfannkuchen.jpg>
-Package pdftex.def Info: media/pfannkuchen.jpg  used on input line 2004.
+Package pdftex.def Info: media/pfannkuchen.jpg  used on input line 2013.
 (pdftex.def)             Requested size: 189.19444pt x 142.26378pt.
+ [69]
+Overfull \vbox (31.17603pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82]
-Overfull \vbox (100.98868pt too high) has occurred while \output is active []
-
- [83 <./media/pfannkuchen.jpg>]
-<media/spinat_pfannkuchen.JPG, id=791, 1341.3312pt x 894.2208pt>
+ [70 <./media/pfannkuchen.jpg>]
+<media/spinat_pfannkuchen.JPG, id=725, 1341.3312pt x 894.2208pt>
 File: media/spinat_pfannkuchen.JPG Graphic file (type jpg)
 <use media/spinat_pfannkuchen.JPG>
-Package pdftex.def Info: media/spinat_pfannkuchen.JPG  used on input line 2031.
-(pdftex.def)             Requested size: 268.8813pt x 179.25032pt.
+Package pdftex.def Info: media/spinat_pfannkuchen.JPG  used on input line 2040.
+(pdftex.def)             Requested size: 250.95476pt x 167.29758pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \vbox (94.11467pt too high) has occurred while \output is active []
+Overfull \vbox (130.1536pt too high) has occurred while \output is active []
 
- [84]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [71]
+Overfull \hbox (17.59871pt too wide) in paragraph at lines 2090--2090
+[]|[]|  
+ []
 
- [85 <./media/spinat_pfannkuchen.JPG>] [86]
+[72 <./media/spinat_pfannkuchen.JPG>] [73]
 File: media/dampfnudel.jpg Graphic file (type jpg)
 <use media/dampfnudel.jpg>
-Package pdftex.def Info: media/dampfnudel.jpg  used on input line 2136.
+Package pdftex.def Info: media/dampfnudel.jpg  used on input line 2145.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
+ [74]
+Overfull \vbox (83.04895pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [75 <./media/dampfnudel.jpg>] [76] [77] [78]
+Overfull \vbox (123.48299pt too high) has occurred while \output is active []
 
- [87]
-Overfull \vbox (153.40112pt too high) has occurred while \output is active []
-
- [88 <./media/dampfnudel.jpg>] [89] [90]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [91]
-Overfull \vbox (126.1284pt too high) has occurred while \output is active []
-
- [92]
+ [79]
 File: media/grießbrei.JPG Graphic file (type jpg)
 <use media/grießbrei.JPG>
-Package pdftex.def Info: media/grießbrei.JPG  used on input line 2283.
+Package pdftex.def Info: media/grießbrei.JPG  used on input line 2292.
 (pdftex.def)             Requested size: 213.53944pt x 142.26378pt.
+ [80]
+Overfull \vbox (17.53362pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [93]
-Overfull \vbox (87.88579pt too high) has occurred while \output is active []
-
- [94 <./media/grießbrei.JPG>]
-Overfull \hbox (4.96326pt too wide) in paragraph at lines 2328--2328
+ [81 <./media/grießbrei.JPG>]
+Overfull \hbox (34.84053pt too wide) in paragraph at lines 2337--2337
 []|[]|  
  []
 
-[95]
+[82]
 File: media/karamell_fudge_v3.JPG Graphic file (type jpg)
 <use media/karamell_fudge_v3.JPG>
-Package pdftex.def Info: media/karamell_fudge_v3.JPG  used on input line 2372.
+Package pdftex.def Info: media/karamell_fudge_v3.JPG  used on input line 2381.
 (pdftex.def)             Requested size: 205.36517pt x 142.26378pt.
 
-Overfull \hbox (24.89467pt too wide) in paragraph at lines 2372--2372
+Overfull \hbox (54.77194pt too wide) in paragraph at lines 2381--2381
 []|[]|  
  []
 
-<media/karamell_fudge.JPG, id=893, 2200.22pt x 1282.7925pt>
+<media/karamell_fudge.JPG, id=827, 2200.22pt x 1282.7925pt>
 File: media/karamell_fudge.JPG Graphic file (type jpg)
 <use media/karamell_fudge.JPG>
-Package pdftex.def Info: media/karamell_fudge.JPG  used on input line 2377.
-(pdftex.def)             Requested size: 224.06548pt x 130.63562pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [96]
+Package pdftex.def Info: media/karamell_fudge.JPG  used on input line 2386.
+(pdftex.def)             Requested size: 209.12683pt x 121.92526pt.
+[83]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \vbox (188.51305pt too high) has occurred while \output is active []
+Overfull \vbox (176.7004pt too high) has occurred while \output is active []
 
- [97 <./media/karamell_fudge_v3.JPG>]
-<media/popcorn.jpg, id=905, 4047.12pt x 3035.34pt>
+ [84 <./media/karamell_fudge_v3.JPG>]
+<media/popcorn.jpg, id=839, 4047.12pt x 3035.34pt>
 File: media/popcorn.jpg Graphic file (type jpg)
 <use media/popcorn.jpg>
-Package pdftex.def Info: media/popcorn.jpg  used on input line 2383.
+Package pdftex.def Info: media/popcorn.jpg  used on input line 2392.
 (pdftex.def)             Requested size: 227.56348pt x 170.71652pt.
- [98 <./media/karamell_fudge.JPG> <./media/popcorn.jpg>]
+ [85 <./media/karamell_fudge.JPG> <./media/popcorn.jpg>]
 File: media/gebrannte_mandeln.jpg Graphic file (type jpg)
 <use media/gebrannte_mandeln.jpg>
-Package pdftex.def Info: media/gebrannte_mandeln.jpg  used on input line 2431.
+Package pdftex.def Info: media/gebrannte_mandeln.jpg  used on input line 2440.
 (pdftex.def)             Requested size: 213.38936pt x 142.26378pt.
-<media/gebrannte_mandeln_schritt.jpg, id=913, 4047.12pt x 3035.34pt>
+<media/gebrannte_mandeln_schritt.jpg, id=847, 4047.12pt x 3035.34pt>
 File: media/gebrannte_mandeln_schritt.jpg Graphic file (type jpg)
 <use media/gebrannte_mandeln_schritt.jpg>
-Package pdftex.def Info: media/gebrannte_mandeln_schritt.jpg  used on input line 2435.
-(pdftex.def)             Requested size: 313.69029pt x 235.23642pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [99]
+Package pdftex.def Info: media/gebrannte_mandeln_schritt.jpg  used on input line 2444.
+(pdftex.def)             Requested size: 292.77629pt x 219.58177pt.
+ [86]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \vbox (62.6239pt too high) has occurred while \output is active []
+Overfull \vbox (36.31125pt too high) has occurred while \output is active []
 
- [100 <./media/gebrannte_mandeln.jpg>]
+ [87 <./media/gebrannte_mandeln.jpg>]
 File: media/orangenquark.JPG Graphic file (type jpg)
 <use media/orangenquark.JPG>
-Package pdftex.def Info: media/orangenquark.JPG  used on input line 2482.
+Package pdftex.def Info: media/orangenquark.JPG  used on input line 2491.
 (pdftex.def)             Requested size: 213.53944pt x 142.26378pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101 <./media/gebrannte_mandeln_schritt.jpg>]
-Overfull \vbox (1.34555pt too high) has occurred while \output is active []
-
- [102 <./media/orangenquark.JPG>]
-chapter 9.
+ [88 <./media/gebrannte_mandeln_schritt.jpg>] [89 <./media/orangenquark.JPG>]
 File: media/pizzabroetchen.JPG Graphic file (type jpg)
 <use media/pizzabroetchen.JPG>
-Package pdftex.def Info: media/pizzabroetchen.JPG  used on input line 2518.
+Package pdftex.def Info: media/pizzabroetchen.JPG  used on input line 2527.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
 
-Overfull \hbox (17.99352pt too wide) in paragraph at lines 2518--2518
+Overfull \hbox (47.87079pt too wide) in paragraph at lines 2527--2527
 []|[]|  
  []
 
-[103
-
-
- <./media/pizzabroetchen.JPG>] [104]
-chapter 10.
-[105
-
-
-] [106] [107]
+[90 <./media/pizzabroetchen.JPG>] [91] [92] [93] [94]
 File: media/hefeteig_reise.JPG Graphic file (type jpg)
 <use media/hefeteig_reise.JPG>
-Package pdftex.def Info: media/hefeteig_reise.JPG  used on input line 2627.
+Package pdftex.def Info: media/hefeteig_reise.JPG  used on input line 2636.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-<media/vollkorn_broetchen.jpg, id=977, 1456.9632pt x 969.3816pt>
+<media/vollkorn_broetchen.jpg, id=910, 1456.9632pt x 969.3816pt>
 File: media/vollkorn_broetchen.jpg Graphic file (type jpg)
 <use media/vollkorn_broetchen.jpg>
-Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 2634.
-(pdftex.def)             Requested size: 219.58662pt x 146.09616pt.
-<media/Fladenbrot.JPG, id=978, 4047.12pt x 3035.34pt>
+Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 2643.
+(pdftex.def)             Requested size: 204.9466pt x 136.34853pt.
+<media/Fladenbrot.JPG, id=911, 4047.12pt x 3035.34pt>
 File: media/Fladenbrot.JPG Graphic file (type jpg)
 <use media/Fladenbrot.JPG>
-Package pdftex.def Info: media/Fladenbrot.JPG  used on input line 2638.
-(pdftex.def)             Requested size: 224.06548pt x 168.03262pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [108]
+Package pdftex.def Info: media/Fladenbrot.JPG  used on input line 2647.
+(pdftex.def)             Requested size: 209.12683pt x 156.82428pt.
+ [95]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \vbox (107.38585pt too high) has occurred while \output is active []
+Overfull \vbox (55.96455pt too high) has occurred while \output is active []
 
- [109 <./media/hefeteig_reise.JPG>] [110 <./media/vollkorn_broetchen.jpg> <./media/Fladenbrot.JPG>] [111] [112]
+ [96 <./media/hefeteig_reise.JPG>] [97 <./media/vollkorn_broetchen.jpg> <./media/Fladenbrot.JPG>] [98] [99]
 File: media/vollkorn_broetchen.jpg Graphic file (type jpg)
 <use media/vollkorn_broetchen.jpg>
-Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 2755.
+Package pdftex.def Info: media/vollkorn_broetchen.jpg  used on input line 2764.
 (pdftex.def)             Requested size: 213.79976pt x 142.26378pt.
+ [100]
+Overfull \vbox (109.01018pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [113]
-Overfull \vbox (120.82283pt too high) has occurred while \output is active []
-
- [114]
+ [101]
 File: media/brioche_burger_bun_v2.jpg Graphic file (type jpg)
 <use media/brioche_burger_bun_v2.jpg>
-Package pdftex.def Info: media/brioche_burger_bun_v2.jpg  used on input line 2790.
+Package pdftex.def Info: media/brioche_burger_bun_v2.jpg  used on input line 2799.
 (pdftex.def)             Requested size: 199.17104pt x 142.26378pt.
- [115 <./media/brioche_burger_bun_v2.jpg>]
-<media/burger_broetchen.JPG, id=1038, 2699.08376pt x 2024.56375pt>
+ [102 <./media/brioche_burger_bun_v2.jpg>]
+<media/burger_broetchen.JPG, id=972, 2699.08376pt x 2024.56375pt>
 File: media/burger_broetchen.JPG Graphic file (type jpg)
 <use media/burger_broetchen.JPG>
-Package pdftex.def Info: media/burger_broetchen.JPG  used on input line 2812.
+Package pdftex.def Info: media/burger_broetchen.JPG  used on input line 2821.
 (pdftex.def)             Requested size: 189.6553pt x 142.26378pt.
- [116 <./media/burger_broetchen.JPG>]
+ [103 <./media/burger_broetchen.JPG>]
 File: media/fladenbrot_flach.JPG Graphic file (type jpg)
 <use media/fladenbrot_flach.JPG>
-Package pdftex.def Info: media/fladenbrot_flach.JPG  used on input line 2855.
+Package pdftex.def Info: media/fladenbrot_flach.JPG  used on input line 2864.
 (pdftex.def)             Requested size: 192.66855pt x 142.26378pt.
- [117 <./media/fladenbrot_flach.JPG>]
-<media/naan_brot.JPG, id=1054, 4047.12pt x 3035.34pt>
+ [104 <./media/fladenbrot_flach.JPG>]
+<media/naan_brot.JPG, id=989, 4047.12pt x 3035.34pt>
 File: media/naan_brot.JPG Graphic file (type jpg)
 <use media/naan_brot.JPG>
-Package pdftex.def Info: media/naan_brot.JPG  used on input line 2880.
-(pdftex.def)             Requested size: 313.69029pt x 235.23642pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[118]
-Overfull \hbox (18.56657pt too wide) in paragraph at lines 2944--2944
+Package pdftex.def Info: media/naan_brot.JPG  used on input line 2889.
+(pdftex.def)             Requested size: 292.77629pt x 219.58177pt.
+ [105 <./media/naan_brot.JPG>]
+Overfull \hbox (48.44385pt too wide) in paragraph at lines 2953--2953
 []|[]|  
  []
 
+[106]
+Overfull \vbox (33.44003pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [119 <./media/naan_brot.JPG>]
-Overfull \vbox (88.75269pt too high) has occurred while \output is active []
-
- [120] [121]
+ [107] [108]
 File: media/ruehrkuchen_2.JPG Graphic file (type jpg)
 <use media/ruehrkuchen_2.JPG>
-Package pdftex.def Info: media/ruehrkuchen_2.JPG  used on input line 2985.
+Package pdftex.def Info: media/ruehrkuchen_2.JPG  used on input line 2994.
 (pdftex.def)             Requested size: 213.38936pt x 142.26378pt.
- [122 <./media/ruehrkuchen_2.JPG>] [123]
+ [109 <./media/ruehrkuchen_2.JPG>] [110]
 File: media/bananenbrot.jpg Graphic file (type jpg)
 <use media/bananenbrot.jpg>
-Package pdftex.def Info: media/bananenbrot.jpg  used on input line 3057.
+Package pdftex.def Info: media/bananenbrot.jpg  used on input line 3066.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [124]
-Overfull \vbox (3.17241pt too high) has occurred while \output is active []
-
- [125 <./media/bananenbrot.jpg>]
+ [111 <./media/bananenbrot.jpg>]
 File: media/kuerbisbrot.JPG Graphic file (type jpg)
 <use media/kuerbisbrot.JPG>
-Package pdftex.def Info: media/kuerbisbrot.JPG  used on input line 3102.
+Package pdftex.def Info: media/kuerbisbrot.JPG  used on input line 3111.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [126]
-Overfull \vbox (29.65276pt too high) has occurred while \output is active []
-
- [127 <./media/kuerbisbrot.JPG>]
+ [112 <./media/kuerbisbrot.JPG>]
 File: media/pumpkin_pie.JPG Graphic file (type jpg)
 <use media/pumpkin_pie.JPG>
-Package pdftex.def Info: media/pumpkin_pie.JPG  used on input line 3143.
+Package pdftex.def Info: media/pumpkin_pie.JPG  used on input line 3152.
 (pdftex.def)             Requested size: 213.53944pt x 142.26378pt.
 
-Overfull \hbox (15.55386pt too wide) in paragraph at lines 3143--3143
+Overfull \hbox (45.43114pt too wide) in paragraph at lines 3152--3152
 []|[]|  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [128]
-Overfull \vbox (56.53021pt too high) has occurred while \output is active []
-
- [129 <./media/pumpkin_pie.JPG>]
-<media/pumpkin_pie_crafting.png, id=1138, 751.80875pt x 374.39874pt>
+[113 <./media/pumpkin_pie.JPG>]
+<media/pumpkin_pie_crafting.png, id=1059, 751.80875pt x 374.39874pt>
 File: media/pumpkin_pie_crafting.png Graphic file (type png)
 <use media/pumpkin_pie_crafting.png>
-Package pdftex.def Info: media/pumpkin_pie_crafting.png  used on input line 3164.
-(pdftex.def)             Requested size: 224.06548pt x 111.58353pt.
- [130 <./media/pumpkin_pie_crafting.png>]
+Package pdftex.def Info: media/pumpkin_pie_crafting.png  used on input line 3173.
+(pdftex.def)             Requested size: 209.12683pt x 104.14539pt.
+ [114 <./media/pumpkin_pie_crafting.png>]
 File: media/zupfkuche.JPG Graphic file (type jpg)
 <use media/zupfkuche.JPG>
-Package pdftex.def Info: media/zupfkuche.JPG  used on input line 3213.
+Package pdftex.def Info: media/zupfkuche.JPG  used on input line 3222.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
+ [115]
+Overfull \vbox (34.2942pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [131]
-Overfull \vbox (71.2155pt too high) has occurred while \output is active []
-
- [132 <./media/zupfkuche.JPG>]
+ [116 <./media/zupfkuche.JPG>]
 File: media/brownie.JPG Graphic file (type jpg)
 <use media/brownie.JPG>
-Package pdftex.def Info: media/brownie.JPG  used on input line 3250.
+Package pdftex.def Info: media/brownie.JPG  used on input line 3259.
 (pdftex.def)             Requested size: 217.43007pt x 142.26378pt.
- [133 <./media/brownie.JPG>] [134]
+ [117 <./media/brownie.JPG>] [118]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3275.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 3275.
+(hyperref)                removing `math shift' on input line 3284.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3275.
+(hyperref)                removing `\pi' on input line 3284.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3284.
 
 File: media/apple_pi.JPG Graphic file (type jpg)
 <use media/apple_pi.JPG>
-Package pdftex.def Info: media/apple_pi.JPG  used on input line 3316.
+Package pdftex.def Info: media/apple_pi.JPG  used on input line 3325.
 (pdftex.def)             Requested size: 189.64653pt x 142.26378pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [135]
-Overfull \vbox (31.89006pt too high) has occurred while \output is active []
-
- [136 <./media/apple_pi.JPG>] [137]
+[119 <./media/apple_pi.JPG>] [120]
 File: media/hefezopf.jpg Graphic file (type jpg)
 <use media/hefezopf.jpg>
-Package pdftex.def Info: media/hefezopf.jpg  used on input line 3365.
+Package pdftex.def Info: media/hefezopf.jpg  used on input line 3374.
 (pdftex.def)             Requested size: 192.53906pt x 142.26378pt.
- [138 <./media/hefezopf.jpg>] [139]
+ [121 <./media/hefezopf.jpg>] [122]
 File: media/zimtschnecken.JPG Graphic file (type jpg)
 <use media/zimtschnecken.JPG>
-Package pdftex.def Info: media/zimtschnecken.JPG  used on input line 3441.
+Package pdftex.def Info: media/zimtschnecken.JPG  used on input line 3445.
 (pdftex.def)             Requested size: 170.68805pt x 128.0374pt.
 
-Overfull \hbox (19.30852pt too wide) in paragraph at lines 3441--3441
+Overfull \hbox (49.18579pt too wide) in paragraph at lines 3445--3445
 []|[]|  
  []
 
+[123]
+Overfull \vbox (28.44815pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [124 <./media/zimtschnecken.JPG>]
+Overfull \vbox (21.85114pt too high) has occurred while \output is active []
 
- [140]
-Overfull \vbox (177.83414pt too high) has occurred while \output is active []
-
- [141 <./media/zimtschnecken.JPG>] [142]
-Overfull \hbox (50.40901pt too wide) in paragraph at lines 3520--3520
+ [125]
+Overfull \hbox (80.28629pt too wide) in paragraph at lines 3538--3538
 []  
  []
 
+[126]
+Overfull \vbox (46.10666pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [143]
-Overfull \vbox (111.56773pt too high) has occurred while \output is active []
-
- [144]
+ [127]
 File: media/pflaumenkuchen_v2.jpg Graphic file (type jpg)
 <use media/pflaumenkuchen_v2.jpg>
-Package pdftex.def Info: media/pflaumenkuchen_v2.jpg  used on input line 3562.
+Package pdftex.def Info: media/pflaumenkuchen_v2.jpg  used on input line 3580.
 (pdftex.def)             Requested size: 221.89232pt x 142.26378pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [145]
-Overfull \vbox (7.97258pt too high) has occurred while \output is active []
-
- [146 <./media/pflaumenkuchen_v2.jpg>] [147]
+ [128 <./media/pflaumenkuchen_v2.jpg>] [129]
 File: media/schoko-nuss-creme-kuchen.jpg Graphic file (type jpg)
 <use media/schoko-nuss-creme-kuchen.jpg>
-Package pdftex.def Info: media/schoko-nuss-creme-kuchen.jpg  used on input line 3627.
+Package pdftex.def Info: media/schoko-nuss-creme-kuchen.jpg  used on input line 3645.
 (pdftex.def)             Requested size: 228.79994pt x 142.26378pt.
 
-Overfull \hbox (65.58359pt too wide) in paragraph at lines 3627--3627
+Overfull \hbox (95.46086pt too wide) in paragraph at lines 3645--3645
 []|[]|  
  []
 
+[130]
+Overfull \vbox (11.14694pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [148]
-Overfull \vbox (62.10802pt too high) has occurred while \output is active []
-
- [149 <./media/schoko-nuss-creme-kuchen.jpg>]
-Overfull \vbox (0.61467pt too high) has occurred while \output is active []
-
- [150]
+ [131 <./media/schoko-nuss-creme-kuchen.jpg>] [132]
 File: media/veganer_karottenkuchen.jpg Graphic file (type jpg)
 <use media/veganer_karottenkuchen.jpg>
-Package pdftex.def Info: media/veganer_karottenkuchen.jpg  used on input line 3709.
+Package pdftex.def Info: media/veganer_karottenkuchen.jpg  used on input line 3727.
 (pdftex.def)             Requested size: 268.43979pt x 170.71652pt.
 
-Overfull \hbox (7.6973pt too wide) in paragraph at lines 3709--3709
+Overfull \hbox (37.57457pt too wide) in paragraph at lines 3727--3727
 []|[]|  
  []
 
+[133]
+Overfull \vbox (60.14703pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [151]
-Overfull \vbox (111.56833pt too high) has occurred while \output is active []
-
- [152 <./media/veganer_karottenkuchen.jpg>] [153] [154
-
-
-]
-chapter 11.
-[155] [156
-
-
-]
-chapter 12.
-[157] [158
-
-
-]
-chapter 13.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [159] [160] (./AZ-Rezeptbuch.aux)
+ [134 <./media/veganer_karottenkuchen.jpg>] [135] [136] (./AZ-Rezeptbuch.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1558,18 +1389,18 @@ Package rerunfilecheck Info: File `AZ-Rezeptbuch.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41203 strings out of 476023
- 990602 string characters out of 5791583
- 1942187 words of memory out of 5000000
- 62152 multiletter control sequences out of 15000+600000
- 574228 words of font info for 74 fonts, out of 8000000 for 9000
+ 42869 strings out of 476023
+ 1042902 string characters out of 5791583
+ 1947187 words of memory out of 5000000
+ 63835 multiletter control sequences out of 15000+600000
+ 572864 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,20n,107p,10958b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on AZ-Rezeptbuch.pdf (168 pages, 19014303 bytes).
+ 108i,20n,107p,10958b,1155s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on AZ-Rezeptbuch.pdf (141 pages, 18971987 bytes).
 PDF statistics:
- 1834 PDF objects out of 2073 (max. 8388607)
- 1517 compressed objects within 16 object streams
- 595 named destinations out of 1000 (max. 500000)
+ 1711 PDF objects out of 1728 (max. 8388607)
+ 1424 compressed objects within 15 object streams
+ 570 named destinations out of 1000 (max. 500000)
  964 words of extra memory for PDF output out of 10000 (max. 10000000)
 

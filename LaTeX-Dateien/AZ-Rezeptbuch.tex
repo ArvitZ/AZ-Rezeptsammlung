@@ -2,7 +2,7 @@
 
 % -------------<Präambel>---------------
 
-\documentclass[a4paper, 12pt]{scrbook} 								% eine alternative Klasse, um ganze Bücher zu verfassen
+\documentclass[a4paper, 12pt]{scrartcl} 								% eine alternative Klasse, um ganze Bücher zu verfassen
 
 \usepackage[utf8]{inputenc} 										% Änderung der Inputcodierung auf UTF-8
 \usepackage[T1]{fontenc}											% Änderung der Schriftart auf eine 8-bit Variante mit unter anderem Umlauten
@@ -32,6 +32,11 @@
 \newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
 \newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
 
+\usepackage[top = 15mm]{geometry}
+\usepackage{scrlayer-scrpage}
+\cfoot*{}% remove the default center pagination from the footer
+\ifoot*{\pagemark}% add pagination to the outer part of the page footer
+
 \numberwithin{equation}{section} 									% Die Nummerierung von Gleichungen bekommt die jeweilige Section-Nummer als Präfix
 
 \renewcommand{\arraystretch}{1.3}									%Ändert Zeilenhöhe in Tabellen
@@ -47,7 +52,7 @@
 
 
 \title{AZ-Rezeptbuch}
-\subtitle{Rezepte aus der Welt eines neugierigen Menschens}
+%\subtitle{Rezepte aus der Welt eines neugierigen Menschens}
 \author{Arvit Zankl}
 \date{erstellt 31.10.2020  \\\vspace{1cm} Version vom \today}
 
@@ -58,22 +63,25 @@
 \begin{document}
 
 % Titelseite
+
+
 \maketitle
+\thispagestyle{empty}
 
 \newpage
+\thispagestyle{empty}
 
 \textit{
 Finde die aktuellste Version auf dem GitHub-Repository: \\\href{https://github.com/ArvitZ/AZ-Rezeptsammlung}{https://github.com/ArvitZ/AZ-Rezeptsammlung}. \\\\
 Verbesserungsvorschläge und Ergänzungen sind sehr erwünscht und können an folgende Mailadresse gesendet werden: \href{mailto:fla8za1@posteo.org}{fla8za1@posteo.org}. \\\\
 Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Repository beigetragen!
 }
+\newpage
 
 % Inhaltsverzeichnis
-\thispagestyle{empty}	% gerne würde ich im Inhaltsverzeichnis die Seitenzahlen ausblenden
 \tableofcontents
-
+\thispagestyle{empty}
 \newpage
-\listoftodos
 
 %----------------------------------<Vorwort>--------------------------------------
 
@@ -91,7 +99,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 % bis die Kybernetik keine effizienteren Methoden erfunden hat, bleibt Bücher schreiben die beste Art Wissen weiterzugeben und damit zu erhalten
 % Sinn von einheitlicher hoffentlich verständlicher Struktur ist offensichtlich
 
-\chapter{Vorwort}
+\section{Vorwort}
 	\setcounter{page}{1}
 	Dieses Rezeptbuch hat den Sinn jedem zu Helfen, der auf der Suche ist nach einem roten Faden in der Küche. Es ist besonders gut geeignet für folgende Personengruppen:
 	\begin{itemize}
@@ -128,7 +136,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 %---------------------------------------------------------------------------------------
 
 
-\section{Rezeptvorlage}	\label{Rezeptlabel}
+\subsection{Rezeptvorlage}	\label{Rezeptlabel}
 
 \begin{tabularx}{\textwidth}{r|L}
 	%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -173,12 +181,12 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 %----------------------------------<Grundnahrungsmittel>--------------------------------------
 
-\chapter{Grundnahrungsmittel}
+\section{Grundnahrungsmittel}
 \newpage
 
 	% NUDELNNNN!
 
-	\section{Nudeln}
+	\subsection{Nudeln}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics{\media\vorlage.jpg}	\\
@@ -219,7 +227,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% RAIIISS!!
 
-	\section{Reis}
+	\subsection{Reis}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics{\media\vorlage.jpg}	\\
@@ -261,7 +269,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% KartOOFFFelln :P
 
-	\section{Kartoffeln}
+	\subsection{Kartoffeln}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics{\media\vorlage.jpg}	\\
@@ -302,7 +310,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Linzzzsen
 
-	\section{Linsen}
+	\subsection{Linsen}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics{\media\vorlage.jpg}	\\
@@ -350,7 +358,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Couscous
 
-	\section{Couscous}
+	\subsection{Couscous}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics{\media\vorlage.jpg}	\\
@@ -388,11 +396,11 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 %----------------------------------<Beilagen>--------------------------------------
 
-\chapter{Beilagen}
+\section{Beilagen}
 
 	% Gemüse in weiß
 
-	\section{Gedünstetes Gemüse}
+	\subsection{Gedünstetes Gemüse}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/Lauchgemüse.JPG}	\\
@@ -435,7 +443,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Bohnen
 
-	\section{Stangenbohnen}	\label{stangenbohnen}
+	\subsection{Stangenbohnen}	\label{stangenbohnen}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -479,7 +487,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Seitan
 
-	\section{Seitan}	\label{seitan}
+	\subsection{Seitan}	\label{seitan}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/seitan.JPG}	\\
@@ -554,7 +562,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Falafel
 
-	\section{Falafel}	\label{Falafel}
+	\subsection{Falafel}	\label{Falafel}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/Falafel.JPG}	\\
@@ -599,7 +607,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Gemüse-Bratlinge
 
-	\section{Gemüse-Bratlinge}	\label{gemuese_bratlinge}
+	\subsection{Gemüse-Bratlinge}	\label{gemuese_bratlinge}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/zucchini_bratling.JPG}	\\
@@ -649,7 +657,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 	\newpage
 
 
-	\section{Kartoffelknödel/Gnocchi}	\label{kartoffelknoedel}
+	\subsection{Kartoffelknödel/Gnocchi}	\label{kartoffelknoedel}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/kartoffelknoedel.jpg}	\\
@@ -703,15 +711,15 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 	\newpage
 
 
-	\section{Aufstriche}
+	\subsection{Aufstriche}
 
 %----------------------------------<saucen>--------------------------------------
 
-\chapter{Sauce}
+\section{Sauce}
 
 	% Béchamelsauce 
 
-	\section{Béchamelsauce} \label{bechamelsauce}
+	\subsection{Béchamelsauce} \label{bechamelsauce}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/bechamelsauce.png}	\\
@@ -752,7 +760,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 	\newpage
 
 
-	\section{Tomatensauce}	\label{tomatensauce}
+	\subsection{Tomatensauce}	\label{tomatensauce}
 
 		\begin{tabularx}{\textwidth}{r|L}
 			%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -797,12 +805,13 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 											\item Gib die Tomaten und die Gewürze hinzu und lasse alles 10-15 min Kochen, bis die gewünschte Konsistenz erreicht ist. 
 										\end{enumerate}	\\
 		\end{tabularx}
-		\newpage
+	\newpage
+	
 
 
 	% Pesto
 
-	\section{Pesto}	\label{pesto}
+	\subsection{Pesto}	\label{pesto}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/pesto_nudeln.JPG}	\\
@@ -844,7 +853,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Erdnuss-Kokos-Curry-sauce
 
-	\section{Erdnuss-Kokos-Curry-Sauce}	\label{erdnuss_sauce}
+	\subsection{Erdnuss-Kokos-Curry-Sauce}	\label{erdnuss_sauce}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -888,17 +897,17 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 %----------------------------------<Fleisch>--------------------------------------
 
-\chapter{Fleisch}
+\section{Fleisch}
 
 %----------------------------------<Vollständige Gerichte>--------------------------------------
 
-\chapter{Vollständige Gerichte}
+\section{Vollständige Gerichte}
 \newpage
 
-	\section{Take-Away-Gerichte}
+	\subsection{Take-Away-Gerichte}
 	\newpage
 
-	\section{Käsespätzle}
+	\subsection{Käsespätzle}
 
 	% hier sollte noch ein Bild hinein
 	\noindent
@@ -953,7 +962,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Frikassee
 
-	\section{Frikassee}	\label{frikassee}
+	\subsection{Frikassee}	\label{frikassee}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/frikasse.jpg}	\\
@@ -1007,12 +1016,12 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 	\newpage
 
 
-	\section{Suppen}
+	\subsection{Suppen}
 	\newpage
 
 		% Kartoffelsuppe
 
-		\subsection{Kartoffel-Lauch-Suppe}
+		\subsubsection{Kartoffel-Lauch-Suppe}
 
 		\begin{tabularx}{\textwidth}{r|L}
 			%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -1065,7 +1074,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 		\newpage
 
 
-		\subsection{Zwiebelsuppe}	\label{zwiebelsuppe}
+		\subsubsection{Zwiebelsuppe}	\label{zwiebelsuppe}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/zwiebelsuppe.jpg}	\\
@@ -1120,7 +1129,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Linseneintopf
 
-		\section{Linseneintopf}	\label{linseneintopf}
+		\subsection{Linseneintopf}	\label{linseneintopf}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/linseneintopf.jpg}	\\
@@ -1175,7 +1184,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Kartoffelpuffer
 
-		\section{Kartoffelpuffer}	\label{kartoffelpuffer}
+		\subsection{Kartoffelpuffer}	\label{kartoffelpuffer}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/kartoffelpuffer.jpg}	\\
@@ -1226,11 +1235,11 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 		\end{tabularx}
 		\newpage
 
-		\section{Curry-Gerichte}
+		\subsection{Curry-Gerichte}
 
 			% Curry
 
-			\subsection{Kokosmilch Curry}	\label{kokos_curry}
+			\subsubsection{Kokosmilch Curry}	\label{kokos_curry}
 
 			\begin{tabularx}{\textwidth}{r|L}
 										& 	\includegraphics[height = 5cm]{media/aloo_masala.JPG}	\\
@@ -1292,7 +1301,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 			\newpage
 
 
-			\subsection{Joghurt Curry}	\label{joghurt_curry}
+			\subsubsection{Joghurt Curry}	\label{joghurt_curry}
 
 				\begin{tabularx}{\textwidth}{r|L}
 					%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -1346,7 +1355,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 				\newpage
 
 
-				\subsection{Klares Curry}	\label{klares_curry}
+				\subsubsection{Klares Curry}	\label{klares_curry}
 
 				\begin{tabularx}{\textwidth}{r|L}
 					%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -1402,7 +1411,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 			% pav bhaji
 
-			\subsection{Pav Bhaji}	\label{pav_bhaji}
+			\subsubsection{Pav Bhaji}	\label{pav_bhaji}
 
 			\begin{tabularx}{\textwidth}{r|L}
 				%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -1446,7 +1455,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 			\end{tabularx}
 			\newpage
 
-			\subsection{Kaans-Geflügel-Joghurt-Curry}	\label{kaans_joghurt_curry}
+			\subsubsection{Kaans-Geflügel-Joghurt-Curry}	\label{kaans_joghurt_curry}
 
 			\begin{tabularx}{\textwidth}{r|L}
 				%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -1528,7 +1537,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 
 			
-			\section{Bosnische Pita (Sirnica)}	\label{bosn_pita}
+			\subsection{Bosnische Pita (Sirnica)}	\label{bosn_pita}
 
 			\begin{tabularx}{\textwidth}{r|L}
 										& 	\includegraphics[height = 5cm]{media/pita_roh.jpg}	\\
@@ -1602,7 +1611,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 			\newpage
 
 
-			\section{Pizza}	\label{pizza}
+			\subsection{Pizza}	\label{pizza}
 
 			\begin{tabularx}{\textwidth}{r|L}
 										& 	\includegraphics[height = 5cm]{media/pizza.JPG}	\\
@@ -1666,7 +1675,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 			\newpage
 
 
-			\section{Lasagne}	\label{lasagne}
+			\subsection{Lasagne}	\label{lasagne}
 
 				\begin{tabularx}{\textwidth}{r|L}
 											& 	\includegraphics[height = 5cm]{media/lasagne.JPG}	\\
@@ -1715,7 +1724,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 				\newpage
 
 
-				\section{Burger}	\label{burger}
+				\subsection{Burger}	\label{burger}
 
 					\begin{tabularx}{\textwidth}{r|L}
 												& 	\includegraphics[height = 5cm]{media/burger.JPG} \\
@@ -1772,7 +1781,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 					\newpage
 
 
-	\section{Bratnudeln}	\label{bratnudeln}
+	\subsection{Bratnudeln}	\label{bratnudeln}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/bratnudeln.jpg}	\\
@@ -1828,7 +1837,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 	\newpage
 
 
-	\section{Bratreis}	\label{bratreis}
+	\subsection{Bratreis}	\label{bratreis}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/bratreis.jpg}	\\
@@ -1877,13 +1886,13 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 %----------------------------------<Gewürzmischungen>--------------------------------------
 
-\chapter{Gewürzmischungen}
+\section{Gewürzmischungen}
 
 \newpage
 
 	% Garam Masala
 
-	\section{Garam Masala}	\label{garam_masala}
+	\subsection{Garam Masala}	\label{garam_masala}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -1921,7 +1930,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Pav Bhaji Masala
 
-	\section{Pav Bhaji Masala}	\label{pav_bhaji_masala}
+	\subsection{Pav Bhaji Masala}	\label{pav_bhaji_masala}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -1960,13 +1969,13 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 %----------------------------------<Süßspeisen>--------------------------------------
 
-\chapter{Süßspeisen}
+\section{Süßspeisen}
 
 \newpage
 
 		% Pfannkuchen
 
-		\section{Pfannkuchen}	\label{pfannkuchen}
+		\subsection{Pfannkuchen}	\label{pfannkuchen}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/pfannkuchen.jpg}	\\
@@ -2036,7 +2045,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Bananen-Pancakes
 
-		\subsection{Bananen-Pancakes}	\label{Bananen-Pancakes}
+		\subsubsection{Bananen-Pancakes}	\label{Bananen-Pancakes}
 
 		\begin{tabularx}{\textwidth}{r|L}
 			%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -2083,7 +2092,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Dampfnudeln
 
-		\section{Dampfnudeln}	\label{dampfnudeln}
+		\subsection{Dampfnudeln}	\label{dampfnudeln}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/dampfnudel.jpg}	\\
@@ -2156,7 +2165,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Vanillesauce
 
-		\section{Vanille-Sauce und -Pudding}	\label{vanillesosse}
+		\subsection{Vanille-Sauce und -Pudding}	\label{vanillesosse}
 
 		\begin{tabularx}{\textwidth}{r|L}
 			%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -2198,7 +2207,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Waffeln
 
-		\section{Waffeln}	\label{waffeln}
+		\subsection{Waffeln}	\label{waffeln}
 
 		\begin{tabularx}{\textwidth}{r|L}
 			%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -2244,7 +2253,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Grießbrei
 
-	\section{Grießbrei oder Grießpudding}	\label{grießbrei}
+	\subsection{Grießbrei oder Grießpudding}	\label{grießbrei}
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/grießbrei.JPG}	\\
 								&	\\
@@ -2286,7 +2295,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Milchreis
 
- \section{Milchreis}	\label{milchreis}
+ \subsection{Milchreis}	\label{milchreis}
 
  \begin{tabularx}{\textwidth}{r|L}
  	%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -2331,7 +2340,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 	
  % Karamell
 
-	\section{Karamell}	\label{karamell}
+	\subsection{Karamell}	\label{karamell}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/karamell_fudge_v3.JPG}	\\
@@ -2387,7 +2396,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 	\newpage
 
 
-	\section{Gebrannte Mandeln}	\label{gebrannte_mandeln}
+	\subsection{Gebrannte Mandeln}	\label{gebrannte_mandeln}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/gebrannte_mandeln.jpg}	\\
@@ -2440,7 +2449,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 		\newpage
 
 
-\section{Früchtequark}	\label{fruchtquark}
+\subsection{Früchtequark}	\label{fruchtquark}
 
 \begin{tabularx}{\textwidth}{r|L}
 							& 	\includegraphics[height = 5cm]{media/orangenquark.JPG}	\\
@@ -2484,12 +2493,12 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 %----------------------------------<Snacks>--------------------------------------
 
-\chapter{Snacks}
+\section{Snacks}
 
 
 	% Pizzabrötchen
 
-	\section{Pizzabrötchen}	\label{pizzabroetchen}
+	\subsection{Pizzabrötchen}	\label{pizzabroetchen}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/pizzabroetchen.JPG}	\\
@@ -2539,17 +2548,17 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 %----------------------------------<Gebäck>--------------------------------------
 
-\chapter{Gebäck}
+\section{Gebäck}
 \newpage
 
 	%----------------------------------<Grundteige>--------------------------------------
 
-	\section{Grundteige}
+	\subsection{Grundteige}
 	\newpage
 
 		% Rezept für Mürbeteig
 
-		\subsection{Mürbeteig} \label{muerbeteig}
+		\subsubsection{Mürbeteig} \label{muerbeteig}
 
 		% hier sollte noch ein Bild hinein
 
@@ -2590,7 +2599,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Rezept für Hefeteig
 
-		\subsection{Hefeteig} \label{hefeteig_grundrezept}
+		\subsubsection{Hefeteig} \label{hefeteig_grundrezept}
 		
 		\begin{tabularx}{\textwidth}[t]{r|L}
 									&	\includegraphics[height = 5cm, angle = 270]{media/hefeteig_reise.JPG}	\\
@@ -2646,11 +2655,11 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% -----------<BROT>----------------------
 
-	\section{Brot}
+	\subsection{Brot}
 	\newpage
 
 
-	\section{Chiabatta}	\label{shiabatta}
+	\subsection{Chiabatta}	\label{shiabatta}
 
 	\begin{tabularx}{\textwidth}{r|L}
 		%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -2707,7 +2716,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	% Brötchen
 
-	\section{Brötchen} \label{Broetchen}
+	\subsection{Brötchen} \label{Broetchen}
 
 	\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 5cm]{media/vollkorn_broetchen.jpg}	\\
@@ -2756,7 +2765,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		\newpage
 
-		\section{Brioche-Burger-Bun}	\label{brioche_burger_bun}
+		\subsection{Brioche-Burger-Bun}	\label{brioche_burger_bun}
 
 			\begin{tabularx}{\textwidth}{r|L}
 										& 	\includegraphics[height = 5cm]{media/brioche_burger_bun_v2.jpg}	\\
@@ -2817,7 +2826,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Fladenbrot
 
-		\section{Fladenbrot}	\label{fladenbrot}
+		\subsection{Fladenbrot}	\label{fladenbrot}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/fladenbrot_flach.JPG}	\\
@@ -2884,7 +2893,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 		\newpage
 
 
-		\section{Zwiebelkuchen}	\label{zwiebelkuchen}
+		\subsection{Zwiebelkuchen}	\label{zwiebelkuchen}
 
 		\begin{tabularx}{\textwidth}{r|L}
 			%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -2946,12 +2955,12 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 	%----------------------------------<Süßgebäck>--------------------------------------
 
-	\section{Süßgebäck}
+	\subsection{Süßgebäck}
 	\newpage
 
 		% Rührkuchen
 
-		\subsection{Rührkuchen}	\label{ruehrkuchen}
+		\subsubsection{Rührkuchen}	\label{ruehrkuchen}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/ruehrkuchen_2.JPG}	\\
@@ -3007,7 +3016,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Bananenbrot
 
-		\subsection{Bananenbrot}	\label{bananenbrot}
+		\subsubsection{Bananenbrot}	\label{bananenbrot}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/bananenbrot.jpg}	\\
@@ -3061,7 +3070,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Rezept für Kürbisbrot
 
-		\subsection{Kürbisbrot}
+		\subsubsection{Kürbisbrot}
 
 		% hier sollte noch ein Bild hinein
 
@@ -3103,7 +3112,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 		\newpage
 
 
-		\subsection{Pumpkin-Pie}	\label{pumpkin_pie}
+		\subsubsection{Pumpkin-Pie}	\label{pumpkin_pie}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/pumpkin_pie.JPG}	\\
@@ -3170,7 +3179,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Zupfkuchen
 
-		\subsection{Zupfkuchen}
+		\subsubsection{Zupfkuchen}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/zupfkuche.JPG}	\\
@@ -3218,7 +3227,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Brownies
 
-		\subsection{Brownies}
+		\subsubsection{Brownies}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/brownie.JPG}	\\
@@ -3272,7 +3281,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		%Pi-Day Pi! oder auch Apple-Pi
 
-		\subsection{Gedeckte Apple-Pie ($\pi$-Day-Pie)}
+		\subsubsection{Gedeckte Apple-Pie ($\pi$-Day-Pie)}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/apple_pi.JPG}	\\
@@ -3336,7 +3345,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Hefezopf
 
-		\subsection{Hefezopf}	\label{Hefezopf}
+		\subsubsection{Hefezopf}	\label{Hefezopf}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/hefezopf.jpg}	\\
@@ -3388,7 +3397,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Teigschnecken
 
-		\subsection{Teigschnecken}	\label{teigschnecken}
+		\subsubsection{Teigschnecken}	\label{teigschnecken}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 4.5cm]{media/zimtschnecken.JPG}	\\
@@ -3426,22 +3435,31 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 											
 											\begin{tabular}{lll}
 												200 g & Sahne \\
+												80 g & Rosinen \\
 												30 g & Zucker \\
 												20 g & Stärke \\
 												Vanille  \\
-												80 g ? & Rosinen
 											\end{tabular}
-										\end{itemize}	\\
-									&	\\	
-			\textbf{Passendes}		&	\begin{itemize}[]
-											\item Vanillesauce \ref{vanillesosse}
-											\item Frosting aus Sahne, Zucker, Salz, Butter
 										\end{itemize}	\\
 									&	\\
 		\end{tabularx}
-		
+
 		\newpage
-		\begin{tabularx}{\textwidth}{r|L}
+		\begin{tabularx}{\textwidth}{r|L}	
+			\textbf{Passendes}		&	\begin{itemize}[]
+											\item Vanillesauce \ref{vanillesosse}
+											\item Frischkäse-Frosting:
+											
+											\begin{tabular}{lll}
+												100 g & Frischkäse \\
+												30 g & Butter \\
+												100 g & Puderzucker \\
+												Vanille \\
+											\end{tabular}
+
+										\end{itemize}	\\
+									&	\\
+
 			\begin{tabular}[t]{rr}
 				\textbf{Zubereitung}	\\
 				Arbeitszeit: 45 min	\\
@@ -3452,7 +3470,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 											\item Gib die Flüssigkeit und die geschmolzene Butter hinzu.
 											\item Lasse den Teig für 12-24 h gehen, sodass er sich mindestens verdoppelt.
 											\item Gib den Teig auf eine gut bemehlte Arbeitsfläche und teile ihn in zwei gleichgroße Teile.
-											\item Ziehe (nur notfalls rollen) jedes Stück in ein Rechteck mit ca. 0,75 cm Stärke.
+											\item Ziehe (nur notfalls rollen) jedes Stück in ein Rechteck von ca. 35 x 20 cm.
 											\item \emph{Für die Zimt-Füllung} mische den Zucker mit einer angemessen Menge Zimt und schmecke mit ein wenig Kardamom ab.
 											\item Bestreiche diese mit dem flüssigen Fett für die Füllung und streue jeweils die Hälfte des Zimt-Kardamom-Zucker-Gemischs drauf.
 											\item \emph{Für die Rosinen-Vanille-Füllung} gib die Sahne mit Zucker und Stärke in einem Topf und koche bis die gewünschte Konsistenz erreicht ist.
@@ -3465,7 +3483,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Muffins
 
-		\subsection{Muffins}	\label{muffins}
+		\subsubsection{Muffins}	\label{muffins}
 
 		\begin{tabularx}{\textwidth}{r|L}
 			%						& 	\includegraphics[height = 5cm]{media/vorlage.jpg}	\\
@@ -3523,7 +3541,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 		% Pflaumenkuchen
 
-		\subsection{Pflaumenkuchen}	\label{pflaumenkuchen}
+		\subsubsection{Pflaumenkuchen}	\label{pflaumenkuchen}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/pflaumenkuchen_v2.jpg}	\\
@@ -3581,7 +3599,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 		\newpage
 		
 
-		\subsection{Schoko-Creme-Nuss-Kuchen}	\label{schokoCremeNussKuchen}
+		\subsubsection{Schoko-Creme-Nuss-Kuchen}	\label{schokoCremeNussKuchen}
 
 		\begin{tabularx}{\textwidth}{r|L}
 									& 	\includegraphics[height = 5cm]{media/schoko-nuss-creme-kuchen.jpg}	\\
@@ -3665,7 +3683,7 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 		\end{tabularx}
 		\newpage
 
-		\subsection{Veganer Karottenkuchen}	\label{Karottenkuchen}
+		\subsubsection{Veganer Karottenkuchen}	\label{Karottenkuchen}
 
 		\begin{tabularx}{\textwidth}{r|L}
 								& 	\includegraphics[height = 6cm]{media/veganer_karottenkuchen.jpg}	\\
@@ -3732,19 +3750,19 @@ Am besten werden die Vorschläge gleich als commits zum oben genannten GitHub-Re
 
 %----------------------------------<Getränke>--------------------------------------
 
-\chapter{Getränke}
+\section{Getränke}
 
 %----------------------------------<Frühstück>--------------------------------------
 
-\chapter{Frühstück}
+\section{Frühstück}
 
 
 %----------------------------------<Anhang>--------------------------------------
 
-\chapter{Anhang}
+\section{Anhang}
 
 
-\section{Liste von Gemüse nach Garzeit} \label{anhang:gemueseliste}
+\subsection{Liste von Gemüse nach Garzeit} \label{anhang:gemueseliste}
 
 \textbf{1. Kategorie: Lange Garzeit (30 min)}
 \begin{itemize}
